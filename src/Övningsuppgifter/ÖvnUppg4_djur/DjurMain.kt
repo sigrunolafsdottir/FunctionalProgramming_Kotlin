@@ -1,4 +1,4 @@
-package Övningsuppgifter
+package Övningsuppgifter.ÖvnUppg4_djur
 
 
 fun main(){
@@ -8,15 +8,24 @@ fun main(){
 
     val list = listOf(katt, hund, spindel)
 /*
+//5a. olika alternativ för att skriva ut listan
     for (d in list){
         d.printEverything()
     }
-
-    //4a. alternativ for-loop
-    list.forEach({e -> e.printEverything()})
+ */
+    //5a. alternativ for-loop
+  //  list.forEach({e -> e.printEverything()})
     println()
 
-    //4b. gör om alla djur till grodor
+    list.forEach({it.printEverything()})
+    println()
+
+    list.forEach({println(it.sort +" "+it.antalBen)})
+
+
+
+/*
+    //5b. gör om alla djur till grodor
 
     fun createFrogs(list: List<Djur> ) : List<Djur>{
         return list.map({Djur(4, "groda") })
@@ -27,7 +36,7 @@ fun main(){
     println(frogmaker.forEach({e -> e.printEverything()}))
 
 
-    //4c. ta bort spindlarna, 2 variationer
+    //5c. ta bort spindlarna, 2 variationer
 
     fun removeSpiders(list: List<Djur> ) : List<Djur>{
         return list.filter({e -> !e.sort.equals("spindel")})
@@ -38,25 +47,25 @@ fun main(){
     println(spindelfilter.forEach({e -> e.printEverything()}))
 
 
-    //4d. kolla om det finns några katter
+    //5d. kolla om det finns några katter
     var kollaKatter = list.any({e -> e.sort.equals("katt")})
     println(kollaKatter)
-    */
 
-    //4e, högst antal ben
+
+    //5e, högst antal ben
     var numberOfLegs = list.map({e -> e.antalBen }).max()
     println(numberOfLegs)
 
-    //4f, summan av antal ben
+    //5f, summan av antal ben
     var sumOfLegs = list.map({e -> e.antalBen }).sum()
     println(sumOfLegs)
 
-    //4g, antal insekter i listan
+    //5g, antal insekter i listan
     var countInsects = list.filter({e -> e.antalBen > 4}).count()
     println(countInsects)
 
-    //4h, fördubblar antal djur i listan
+    //5h, fördubblar antal djur i listan
     var doubleUp = list + list
     println(doubleUp.forEach({e -> e.printEverything()}))
-
+*/
 }

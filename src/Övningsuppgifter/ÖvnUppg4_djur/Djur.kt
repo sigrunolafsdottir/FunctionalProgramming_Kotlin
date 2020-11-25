@@ -1,4 +1,4 @@
-package Övningsuppgifter
+package Övningsuppgifter.ÖvnUppg4_djur
 
 
 class Djur (antalBen: Int, sort: String){

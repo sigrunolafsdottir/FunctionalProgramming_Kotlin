@@ -8,7 +8,7 @@ fun main (){
         val guessed = readLine()!!.toInt()
         if (randomNumber == guessed) {
             println("Det var rätt.")
-            randomNumber = (1..11).random()
+            randomNumber = (1..10).random()
             println("Gissa en siffra mellan 1 och 10")
         }
         else {
