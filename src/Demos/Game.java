@@ -5,10 +5,15 @@ import java.net.Socket;
 public class Game extends Thread{
     Socket spelare1;
     Socket spelare2;
+    //ObjectWriter  owPlayer1...
+    //ObjectReader  orPlayer1...
+    //ObjectWriter owPlayer2.....
+    //ObjectReader orPlayer2.....
 
     public Game(Socket spelare1, Socket spelare2){
         this.spelare1 = spelare1;
         this.spelare2 = spelare2;
+        //ev kan man wrappa sockeetarna här
     }
 
     public void run(){
