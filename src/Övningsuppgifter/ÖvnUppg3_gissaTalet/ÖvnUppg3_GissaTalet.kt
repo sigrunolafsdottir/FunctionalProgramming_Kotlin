@@ -1,4 +1,4 @@
-package Övningsuppgifter
+package Övningsuppgifter.ÖvnUppg3_gissaTalet
 
 
 fun main (){

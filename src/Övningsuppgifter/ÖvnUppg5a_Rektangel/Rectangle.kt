@@ -1,4 +1,4 @@
-package Övningsuppgifter.ÖvnUppg5a
+package Övningsuppgifter.ÖvnUppg5a_Rektangel
 
 class Rectangle(val width: Double, val height: Double)
 

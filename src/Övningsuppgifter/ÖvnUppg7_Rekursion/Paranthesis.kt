@@ -1,4 +1,4 @@
-package Övningsuppgifter.Rekursion
+package Övningsuppgifter.ÖvnUppg7_Rekursion
 
 fun main () {
 

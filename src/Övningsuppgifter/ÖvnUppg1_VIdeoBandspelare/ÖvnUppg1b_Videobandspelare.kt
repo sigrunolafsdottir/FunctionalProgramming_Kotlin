@@ -1,4 +1,4 @@
-package Övningsuppgifter
+package Övningsuppgifter.ÖvnUppg1_VIdeoBandspelare
 
 //Program skrivet med en mer Kotlin-specifik approach
 //All length in Minutes

@@ -1,4 +1,4 @@
-package Övningsuppgifter.Rekursion
+package Övningsuppgifter.ÖvnUppg7_Rekursion
 
 fun factorial(n: Long): Long {
     if (n <= 1) return 1

@@ -12,11 +12,12 @@ fun main ()  {
         val parts = input.get(i).split(" ")
         val range = parts[0].split("-")
         val letter = parts[1].substring(0, parts[1].length - 1).single();
+        val rangeStart = range[0].toInt()
+        val rangeStop = range[1].toInt()
         val password = parts[2]
-        val countOccurrences = password.filter{ it == letter}.count()
-        if (countOccurrences in range[0].toInt()..range[1].toInt())  counter++
 
-        //println("${input.get(i)} $letter $password $countOccurrences $counter")
+        if (password.filter{ it == letter}.count() in rangeStart..rangeStop) counter++
+
     }
     println(counter)
 

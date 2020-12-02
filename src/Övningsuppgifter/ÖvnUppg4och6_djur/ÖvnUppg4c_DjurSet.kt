@@ -1,4 +1,4 @@
-package Övningsuppgifter.ÖvnUppg4_djur
+package Övningsuppgifter.ÖvnUppg4och6_djur
 
 fun main() {
     var katt = Djur(4, "katt")

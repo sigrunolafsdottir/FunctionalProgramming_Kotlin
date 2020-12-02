@@ -1,4 +1,4 @@
-package Övningsuppgifter
+package Övningsuppgifter.ÖvnUppg2_loopar
 
 
 fun printEvenNumbers(){

@@ -1,4 +1,4 @@
-package Övningsuppgifter
+package Övningsuppgifter.ÖvnUppg5a_Rektangel
 
 //Övninsguppgift 5b
 fun String.doubleUp() = "$this$this"
