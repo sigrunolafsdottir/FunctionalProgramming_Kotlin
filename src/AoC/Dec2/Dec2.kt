@@ -9,14 +9,14 @@ fun main ()  {
     var counter : Int = 0
 
     for (i in 0..input.size-1){
-        val parts = input.get(i).split(" ")
-        val range = parts[0].split("-")
-        val letter = parts[1].substring(0, parts[1].length - 1).single();
-        val rangeStart = range[0].toInt()
-        val rangeStop = range[1].toInt()
-        val password = parts[2]
 
-        if (password.filter{ it == letter}.count() in rangeStart..rangeStop) counter++
+        val parts = input.get(i).split(" ", ":", "-")
+        val startRange = parts[0].toInt()
+        val stopRange = parts[1].toInt()
+        val letter = parts[2].trim().single()
+        val password = parts[4].toCharArray()
+
+        if (password.filter{ it == letter}.count() in startRange..stopRange) counter++
 
     }
     println(counter)

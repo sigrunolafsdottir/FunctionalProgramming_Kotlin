@@ -10,16 +10,14 @@ fun main ()  {
     val input: List<String> = File(fileName).readLines()
 
     for (i in 0..input.size-1){
-        val parts = input.get(i).split(" ")
-        val range = parts[0].split("-")
-        val letter = parts[1].substring(0, parts[1].length - 1).single();
-        val password = parts[2]
-        val startRange = range[0].toInt()
-        val stopRange = range[1].toInt()
-        val passwordChArr = password.toCharArray()
+        val parts = input.get(i).split(" ", ":", "-")
+        val startRange = parts[0].toInt()
+        val stopRange = parts[1].toInt()
+        val letter = parts[2].trim().single()
+        val password = parts[4].toCharArray()
 
-        if ((passwordChArr[startRange-1] == letter)
-                .xor( passwordChArr[stopRange-1] == letter)) counter ++
+        if ((password[startRange-1] == letter)
+                .xor( password[stopRange-1] == letter)) counter ++
 
     }
     println(counter)

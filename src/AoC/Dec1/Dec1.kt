@@ -1,6 +1,7 @@
 package AoC.Dec1
 
-import AoC.makeList
+import AoC.makeIntList
+
 
 
 fun findAnswerUppgA(list : List<Int>) : Int{
@@ -28,6 +29,6 @@ fun findAnswerUppgB(list : List<Int>) : Int{
 
 
 fun main(){
-    println(findAnswerUppgA(makeList("src/AoC/Dec1/input.txt")))
-    println(findAnswerUppgB(makeList("src/AoC/Dec1/input.txt")))
+    println(findAnswerUppgA(makeIntList("src/AoC/Dec1/input.txt")))
+    println(findAnswerUppgB(makeIntList("src/AoC/Dec1/input.txt")))
 }
