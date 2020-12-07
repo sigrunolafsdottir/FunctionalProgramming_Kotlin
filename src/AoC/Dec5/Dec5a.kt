@@ -14,6 +14,4 @@ fun main(){
     println(highestId)
 
 
-
-
 }
