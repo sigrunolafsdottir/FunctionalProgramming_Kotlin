@@ -7,7 +7,7 @@ import AoC.makeStringList
 
 fun main(){
 
-    val input = makeStringList ("src/AoC/Dec4/input.txt")
+    val input = makeStringList ("src/AoC/Dec4/input_mini_invalid")
 
     fun assembleData(rawInput : List<String>) : List<String> {
         var result: MutableList<String> = mutableListOf()
@@ -33,6 +33,7 @@ fun main(){
         cleanInput.filter{it.count{it == ':'} == 8
                 || (it.count{it == ':'} == 7 && !it.contains("cid:"))}
 
+    //Uppg 4b, här är det några som fortfarande slinker igenom
     fun checkOk2(cleanInput : List<String>) : Int {
         var counter : Int = 0
         for (i in cleanInput){

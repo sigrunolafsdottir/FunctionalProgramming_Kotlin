@@ -4,8 +4,7 @@ import java.io.File
 
 fun main ()  {
 
-    val fileName : String = "src/AoC/Dec2/input.txt"
-    val input: List<String> = File(fileName).readLines()
+    val input: List<String> = File("src/AoC/Dec2/input.txt").readLines()
     var counter : Int = 0
 
     for (i in 0..input.size-1){
