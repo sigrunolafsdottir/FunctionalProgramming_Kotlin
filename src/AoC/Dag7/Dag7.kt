@@ -1,38 +1,70 @@
 package AoC.Dag7
 
-/*
-Lösningsskiss
+import AoC.makeStringList
 
-Gör en klass (i Kotlin, välj Data class), Bag, som innehåller en färg (String) och ett antal (så många väskor av en viss
-färg som en annan väska av en viss färg kan innehålla) och en boolean found som från början är false
 
-Läs in input och skapa en Map (bags) där varje Bag är nyckel
-Värdet är en lista av alla Bags som den första nyckelbag:en kan innehålla
+fun main(){
 
-Läs igenom Mapen och lista upp alla nycklar som har en golden Bag i sin värdelista
+    val input = makeStringList ("src/AoC/Dag7/input.txt")
 
-Skapa en rekursiv funktion fidBags som initialt tar en lista innehållande en instans av "golden bag"  (bag)
-och en(från början tom) lista, (res)
+    data class Bag(val color : String)
 
-För varje Bag i bags, kolla vilka nycklar som har denna som värde,
-lägg till nycklarna i res (rensa från tidigare anrops nycklar) och i bags, anropa funktionen igen och igen
-tills alla nycklar som kan innehålla en golden bag har hittats och lagts i res
+    //jordens fulaste parsning...
+    fun buildMap(input : List<String>) : Map<Bag, MutableList<Bag>> {
+        var mappie : Map<Bag, MutableList<Bag>> = mutableMapOf()
 
-FÖr att slippa oändliga loopar: i findbag, så fort en bag har "hittats", (dvs. vi ser att den kan innehålla en
-golden bag), sätt dess found till true.
+        for (i in input){
+            val kayValSplit = i.split(" bags contain ")
 
-När sökningen görs efter nycklar som kan innhålla gyllene väskor filtrerar man på om de tidigare har
-blivit "found" eller inte
+            var bagList : MutableList<Bag> = mutableListOf()
+            val key : Bag = Bag(kayValSplit[0])
 
-Sen får man be en bön om att det inte är så mycket input-data att man råkar ut för Stackoverflow,
-men förhoppningsvis kommer allt att gå bra!
+            val valSplit = kayValSplit[1].split(" bags, " , " bags.", " bag, ", " bag ")  //varje antal väskor
+            valSplit.map{it.trim()}
 
-Bättre prestanda (men ev. lite jobbigare att bygga mappen) kommer det att bli om man från början bygger
-sin map så att varje nyckel är en bag och värdet är en lista av alla bags som kan innehålla nyckeln
-(istället för tvärt om)
+            for (j in valSplit){
+                if (!j.trim().equals("")){
+                    val singleBagInfoSplit = j.trim().split(" ")  //varje ord för sig
 
-Den rekursiva funktionen måste i så fall ändras så att sökningen sker från nyckel till värde och inte tvärt om.
+                    if (singleBagInfoSplit[0].trim().get(0).isDigit()) {
+                        bagList.add(
+                            Bag(
+                                singleBagInfoSplit[1].trim() + " " + singleBagInfoSplit[2].trim()
+                            )
+                        )
+                    }
+                }
+            }
+            mappie += key to bagList
+            //bagList = mutableListOf()
 
-Detta med hur många väskor andra väskor kan innhålla används ju inte i uppg a, men jag sätter mina
-guldpengar på att dessa siffror kommer att figurera i uppg b
- */
+        }
+        return mappie
+    }
+
+
+    fun calculateNumberOfBags(parentalBags : MutableList<Bag>, bagMap : Map<Bag, List<Bag>>, lastLen : Int ) : Int {
+        var tempList : MutableList<Bag> = mutableListOf()
+        for (i in parentalBags){
+            for (j in bagMap.entries){
+                if (j.value.contains(i) ) if (!parentalBags.contains(j.key))tempList.add(j.key)
+            }
+        }
+        parentalBags.addAll(tempList)
+        println("${parentalBags.distinct().size} $parentalBags")
+        if (lastLen == parentalBags.distinct().size) return parentalBags.distinct().size
+        else calculateNumberOfBags(parentalBags, bagMap, parentalBags.distinct().size )
+
+        return -1  //should not happen, not sure why this is returned
+
+    }
+
+    val bagMap = buildMap(input)
+    val goldenBag = Bag("shiny gold")
+    var bagList : MutableList<Bag> = mutableListOf(goldenBag)
+
+    println(calculateNumberOfBags(bagList, bagMap, 1))
+
+    //Answer is last printout from calculateNumberOfBags -1 (måste ta bort golden bag)
+
+}
