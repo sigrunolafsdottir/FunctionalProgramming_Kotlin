@@ -24,15 +24,17 @@ fun main(){
 
        list.forEach({println(it.sort +" "+it.antalBen)})
 
+       list.forEach{println(it.sort +" "+it.antalBen)}
+
        //6b. gör om alla djur till grodor
 
        fun createFrogs(list: List<Djur> ) : List<Djur>{
-           return list.map({Djur(4, "groda") })
+           return list.map{Djur(4, "groda") }
        }
-       println(createFrogs(list).forEach({e -> e.printEverything()}))
+       createFrogs(list).forEach{it.printEverything()}
 
        var frogmaker = list.map { Djur(4,"groda") }
-       println(frogmaker.forEach({e -> e.printEverything()}))
+       frogmaker.forEach{it.printEverything()}
 
 
 
@@ -47,37 +49,40 @@ fun main(){
 
     */
 
-        /*
+
               //6c. ta bort spindlarna, 2 variationer
 
-              fun removeSpiders(list: List<Djur> ) : List<Djur>{
-                  return list.filter({e -> !e.sort.equals("spindel")})
-              }
-              println(removeSpiders(list).forEach({ e -> e.printEverything()}))
+/*
 
-              var spindelfilter = list.filter({e -> !e.sort.equals("spindel")})
-              println(spindelfilter.forEach({e -> e.printEverything()}))
+              fun removeSpiders(list: List<Djur> ) : List<Djur>{
+                  return list.filter{!it.sort.equals("spindel")}
+              }
+              removeSpiders(list).forEach{ it.printEverything()}
+
+              var spindelfilter = list.filter{!it.sort.equals("spindel")}
+              spindelfilter.forEach{it.printEverything()}
+
 
 
               //6d. kolla om det finns några katter
-              var kollaKatter = list.any({e -> e.sort.equals("katt")})
+              var kollaKatter = list.any{it.sort.equals("katt")}
               println(kollaKatter)
 
 
               //6e, högst antal ben
-              var numberOfLegs = list.map({e -> e.antalBen }).max()
+              var numberOfLegs = list.map{it.antalBen }.max()
               println(numberOfLegs)
 
               //6f, summan av antal ben
-              var sumOfLegs = list.map({e -> e.antalBen }).sum()
+              var sumOfLegs = list.map{it.antalBen }.sum()
               println(sumOfLegs)
 
               //6g, antal insekter i listan
-              var countInsects = list.filter({e -> e.antalBen > 4}).count()
+              var countInsects = list.filter{it.antalBen > 4}.count()
               println(countInsects)
 
               //6h, fördubblar antal djur i listan
               var doubleUp = list + list
-              println(doubleUp.forEach({e -> e.printEverything()}))
-          */
+              doubleUp.forEach{it.printEverything()}
+*/
 }

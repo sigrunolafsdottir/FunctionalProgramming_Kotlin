@@ -9,10 +9,10 @@ fun main (){
             else evaluate(if (ints.get(counter) > max) ints.get(counter) else max, counter +1 )
         }
 
-        var max = 0
+        var max = Int.MIN_VALUE
         return evaluate(max, 0)
     }
 
 
-    println(findMax(listOf(1, 5, 3, 4, 10, -3, 6)))
+    println(findMax(listOf(1, -5, 3, -4, 10, 3, -6)))
 }

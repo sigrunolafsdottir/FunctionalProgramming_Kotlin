@@ -1,4 +1,4 @@
-package AoC.Dag7
+package AoC.Dec7
 
 import AoC.makeStringList
 
@@ -36,8 +36,6 @@ fun main(){
                 }
             }
             mappie += key to bagList
-            //bagList = mutableListOf()
-
         }
         return mappie
     }
@@ -52,19 +50,16 @@ fun main(){
         }
         parentalBags.addAll(tempList)
         println("${parentalBags.distinct().size} $parentalBags")
-        if (lastLen == parentalBags.distinct().size) return parentalBags.distinct().size
+        return if (lastLen == parentalBags.distinct().size) return parentalBags.distinct().size
         else calculateNumberOfBags(parentalBags, bagMap, parentalBags.distinct().size )
-
-        return -1  //should not happen, not sure why this is returned
-
     }
 
     val bagMap = buildMap(input)
     val goldenBag = Bag("shiny gold")
     var bagList : MutableList<Bag> = mutableListOf(goldenBag)
 
-    println(calculateNumberOfBags(bagList, bagMap, 1))
+    // -1 cause I gotta remove the shiny golden bag from list
+    println(calculateNumberOfBags(bagList, bagMap, 1) -1)
 
-    //Answer is last printout from calculateNumberOfBags -1 (måste ta bort golden bag)
 
 }

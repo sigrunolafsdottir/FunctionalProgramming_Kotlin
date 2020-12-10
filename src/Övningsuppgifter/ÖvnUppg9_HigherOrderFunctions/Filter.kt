@@ -1,4 +1,4 @@
-package Övningsuppgifter.HigherOrderFunctions
+package Övningsuppgifter.ÖvnUppg9_HigherOrderFunctions
 
 fun <T> List<T>.myFilter(
     predicate: (T) -> Boolean

@@ -1,4 +1,6 @@
-package Demos;
+package gammaltSkrap;
+
+import gammaltSkrap.Game;
 
 import java.io.IOException;
 import java.net.ServerSocket;

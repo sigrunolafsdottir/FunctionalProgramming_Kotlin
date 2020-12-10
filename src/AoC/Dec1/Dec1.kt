@@ -2,8 +2,6 @@ package AoC.Dec1
 
 import AoC.makeIntList
 
-
-
 fun findAnswerUppgA(list : List<Int>) : Int{
     for (i in 0..list.size-1){
         for (j in i+1..list.size-1){

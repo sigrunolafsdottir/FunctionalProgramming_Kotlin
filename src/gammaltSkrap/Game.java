@@ -1,4 +1,4 @@
-package Demos;
+package gammaltSkrap;
 
 import java.net.Socket;
 
