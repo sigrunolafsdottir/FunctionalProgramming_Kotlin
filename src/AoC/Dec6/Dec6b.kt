@@ -1,6 +1,8 @@
 package AoC.Dec6
 
 import AoC.makeStringList
+import java.awt.geom.Rectangle2D.intersect
+import java.io.File
 
 
 fun main() {
@@ -24,11 +26,16 @@ fun main() {
 
     //todo: bryt ner strängarna i char-arrayer och intersecta chararna
     //funkar inte som den är nu
-   // fun reduce(sets : List<List<String>>) : Int{
-    //    return sets.map { it.reduce(List<String>::intersect).size }.sum()
-    //}
+    fun reduce(sets : List<List<String>>) : Int{
+        //return sets.map { it.reduce(List<String>::intersect).size }.sum()
+        //return sets.map { Set<Char>::intersect}.size }
+        return 0
+    }
 
-    println(assembleData(input))
-   // println(reduce(assembleData(input)))
+
+
+    val list : List<List<String>> = assembleData(input)
+    println(list)
+
 
 }

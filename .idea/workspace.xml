@@ -4,6 +4,10 @@
     <list default="true" id="97b39c4e-fc29-4feb-8217-97c3a9620541" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec1/Dec1Kt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/Dec2HigherOrderFunctionEditionKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/Dec2HigherOrderFunctionEditionKt$main$uppgA$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/Dec2HigherOrderFunctionEditionKt$main$uppgB$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/Dec2HigherOrderFunctionEditionKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/Dec2Kt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/Dec2bKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec2/input.txt" afterDir="false" />
@@ -33,16 +37,45 @@
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/Dec6aKt$main$2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/Dec6aKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/Dec6bKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/Dec6bKt$main$2.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/Dec6bKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/input.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/input_mini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec6/input_mini2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7aKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7aKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7aKt$main$Bag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7aKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7bKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7bKt$main$Bag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/Dag7bKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8aKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8aKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8aKt$main$Instruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8aKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt$main$Instruction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/input_mini.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/UtilsKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$addition$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$division$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$multiplication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$subtraction$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/Circle.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/CircleKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/FunctionalDemo1Kt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/FunctionalDemo2Kt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/WhenDemoKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/META-INF/Kotlin.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/gammaltSkrap/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/gammaltSkrap/ServerListener.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/helloWorldExercise1/HelloWorldKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/helloWorldExercise1/MainclassKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/helloWorldExercise1/TestingStuffKt$main$1.class" afterDir="false" />
@@ -83,22 +116,27 @@
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg7_Rekursion/SumKt$main$1$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg7_Rekursion/SumKt$main$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg7_Rekursion/SumKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec2/Dec2HigherOrderFunctionEdition.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec7/Dag7b.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demos/BinaryOperator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortionKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortionKt$main$removeBlanks$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortionKt$main$toUpperCase$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortionKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/AnyKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/AnyKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/AnyKt$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/AnyKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/FilterKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/FilterKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/MapKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/MapKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec6/input_mini2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/Dag7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec7/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input_mini.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec7/input_mini.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demos/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gammaltSkrap/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Demos/ServerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gammaltSkrap/ServerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/HigherOrderFunctions/Any.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/Any.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/HigherOrderFunctions/Filter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/Filter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/HigherOrderFunctions/Map.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/Map.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4och6_djur/DjurMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4och6_djur/DjurMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/FindMax.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/FindMax.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input_mini.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/input_mini.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,28 +165,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt">
+        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="55" selection-start-line="43" selection-start-column="2" selection-end-line="55" />
+            <state relative-caret-position="368">
+              <caret line="610" column="6" selection-start-line="610" selection-start-column="6" selection-end-line="610" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7b.kt">
+        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2HigherOrderFunctionEdition.kt">
+        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -171,10 +218,13 @@
       <find>hgt:97</find>
       <find>61c</find>
       <find>data class</find>
-      <find>split</find>
       <find>shiny gold</find>
       <find>filter</find>
+      <find>split</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec4</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,11 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Demos/Circle.kt" />
-        <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg5abc.kt" />
-        <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg5a/Rectangle.kt" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.kts" />
-        <option value="$PROJECT_DIR$/src/AoC/Dec1/input.txt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec1/Dec1a.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec1/Utils.kt" />
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4_djur/DjurSet.kt" />
@@ -209,7 +254,6 @@
         <option value="$PROJECT_DIR$/src/AoC/Dec6/input.txt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec6/input_mini.txt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec6/Dec6a.kt" />
-        <option value="$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec4/Dec4a.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec2/Dec2.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec2/Dec2b.kt" />
@@ -233,13 +277,19 @@
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4och6_djur/DjurMain.kt" />
         <option value="$PROJECT_DIR$/src/gammaltSkrap/FileSearcher.kt" />
         <option value="$PROJECT_DIR$/src/gammaltSkrap/Tomteuppgiften.kt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec6/input_mini2.txt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec8/input.txt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="147" />
     <option name="y" value="35" />
-    <option name="width" value="1638" />
+    <option name="width" value="1640" />
     <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -250,23 +300,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Course" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,6 +351,36 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AoC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AoC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Dec8" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,25 +389,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AoC/Dec6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AoC/Dec8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec8" />
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec6" />
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec4" />
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec2" />
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\Demos" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dag7" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec6" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\Övningsuppgifter\ÖvnUppg2" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\Övningsuppgifter\ÖvnUppg3" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec6" />
-      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec4" />
-      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec2" />
-      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec3" />
-      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\Övningsuppgifter" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -359,67 +423,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Övningsuppgifter.ÖvnUppg7_Rekursion.FindMaxKt">
-    <configuration name="gammaltSkrap.FileSearcherKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.AoC.Dec8.Dec8bKt">
+    <configuration name="AoC.Dec5.Dec5aKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="gammaltSkrap.FileSearcherKt" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec5.Dec5aKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gammaltSkrap.TomteuppgiftenKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="AoC.Dec6.Dec6aKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="gammaltSkrap.TomteuppgiftenKt" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec6.Dec6aKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Övningsuppgifter.ÖvnUppg4och6_djur.DjurMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="AoC.Dec6.Dec6bKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Övningsuppgifter.ÖvnUppg4och6_djur.DjurMainKt" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec6.Dec6bKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Övningsuppgifter.ÖvnUppg7_Rekursion.FindMaxKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="AoC.Dec8.Dec8aKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Övningsuppgifter.ÖvnUppg7_Rekursion.FindMaxKt" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec8.Dec8aKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Övningsuppgifter.ÖvnUppg8_StringDistortion.StringDistortionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="AoC.Dec8.Dec8bKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Övningsuppgifter.ÖvnUppg8_StringDistortion.StringDistortionKt" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec8.Dec8bKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -427,11 +491,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.gammaltSkrap.TomteuppgiftenKt" />
-        <item itemvalue="Kotlin.gammaltSkrap.FileSearcherKt" />
-        <item itemvalue="Kotlin.Övningsuppgifter.ÖvnUppg4och6_djur.DjurMainKt" />
-        <item itemvalue="Kotlin.Övningsuppgifter.ÖvnUppg7_Rekursion.FindMaxKt" />
-        <item itemvalue="Kotlin.Övningsuppgifter.ÖvnUppg8_StringDistortion.StringDistortionKt" />
+        <item itemvalue="Kotlin.AoC.Dec8.Dec8bKt" />
+        <item itemvalue="Kotlin.AoC.Dec8.Dec8aKt" />
+        <item itemvalue="Kotlin.AoC.Dec6.Dec6bKt" />
+        <item itemvalue="Kotlin.AoC.Dec6.Dec6aKt" />
+        <item itemvalue="Kotlin.AoC.Dec5.Dec5aKt" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +525,8 @@
       <workItem from="1606667526980" duration="5000" />
       <workItem from="1606667594875" duration="39680000" />
       <workItem from="1607188069725" duration="7938000" />
-      <workItem from="1607254581293" duration="37682000" />
+      <workItem from="1607254581293" duration="37770000" />
+      <workItem from="1607607482759" duration="9398000" />
     </task>
     <task id="LOCAL-00001" summary="added client server demo">
       <created>1606300450853</created>
@@ -533,16 +598,23 @@
       <option name="project" value="LOCAL" />
       <updated>1607458291552</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cleanup">
+      <created>1607605940928</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607605940928</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143575000" />
+    <option name="totallyTimeSpent" value="153061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17663817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18518518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,7 +623,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20869565" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24130435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -613,7 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added client server demo" />
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="AoC day 2 added" />
     <MESSAGE value="CleanUp file and folder names" />
     <MESSAGE value="AoC day 3 added" />
@@ -622,44 +693,10 @@
     <MESSAGE value="AoC day 6a added" />
     <MESSAGE value="AoC day 7a lösnings-skiss added" />
     <MESSAGE value="AoC day 7a löst" />
-    <option name="LAST_COMMIT_MESSAGE" value="AoC day 7a löst" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg5a_Rektangel/ÖvnUppg5bc.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/StringTemplates.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="195" column="4" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demos/WhenDemo.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="1" selection-start-line="5" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4och6_djur/ÖvnUppg4e_When.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Demos/FunctionalDemo1.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -703,38 +740,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="1158" column="8" selection-start-line="1158" selection-start-column="5" selection-end-line="1158" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="2146" column="4" selection-start-line="2146" selection-start-column="4" selection-end-line="2146" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/input_mini.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -752,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Utils.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -766,13 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dag7/SnoddKlass.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dag7/SnoddKlass.kt" />
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -820,55 +816,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/Assignment">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="28" selection-start-line="7" selection-start-column="55" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/Assignment" />
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -921,34 +869,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gammaltSkrap/FileSearcher.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="55" selection-start-line="43" selection-start-column="2" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gammaltSkrap/Tomteuppgiften.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gammaltSkrap/FileSearcher.kt" />
+    <entry file="file://$PROJECT_DIR$/src/gammaltSkrap/Tomteuppgiften.kt" />
     <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4och6_djur/DjurMain.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
@@ -956,10 +878,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" selection-start-line="43" selection-start-column="2" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1360">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36482">
+          <caret line="2146" column="4" selection-start-line="2146" selection-start-column="4" selection-end-line="2146" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#18#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2HigherOrderFunctionEdition.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/input_mini.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/input_mini2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="610" column="6" selection-start-line="610" selection-start-column="6" selection-end-line="610" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="28" selection-start-line="7" selection-start-column="55" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
         </state>
       </provider>
     </entry>
