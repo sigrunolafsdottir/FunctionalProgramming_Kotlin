@@ -22,7 +22,6 @@ fun main(){
         var accumulator : Int = 0
         var execIndex : Int = 0
         var executedRows : MutableList<Int> = mutableListOf()
-        //var uniqueRow: Boolean = true
 
         try {
             while (!executedRows.contains(execIndex)) {

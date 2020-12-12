@@ -61,6 +61,14 @@
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/Dec8bKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/input.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec8/input_mini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/Dec9aKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/Dec9aKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/Dec9aKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/Dec9bKt$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/Dec9bKt$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/Dec9bKt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec9/input_mini.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/UtilsKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Demos/BinaryOperatorKt$main$addition$1.class" afterDir="false" />
@@ -128,15 +136,15 @@
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/FilterKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/MapKt$main$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/MapKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec6/input_mini2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec9/Dec9a.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec9/Dec9b.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec9/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AoC/Dec9/input_mini.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input_mini.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/input_mini.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,38 +172,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="610" column="6" selection-start-line="610" selection-start-column="6" selection-end-line="610" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt">
+        <entry file="file://$PROJECT_DIR$/src/AoC/Utils.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="85">
+              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -221,6 +202,7 @@
       <find>shiny gold</find>
       <find>filter</find>
       <find>split</find>
+      <find>1503494</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec4</dir>
@@ -232,10 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/AoC/Dec1/Dec1a.kt" />
-        <option value="$PROJECT_DIR$/src/AoC/Dec1/Utils.kt" />
-        <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4_djur/DjurSet.kt" />
-        <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4_djur/ÖvnUppg4d_DjurMap.kt" />
         <option value="$PROJECT_DIR$/src/Demos/WhenDemo.kt" />
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4_djur/ÖvnUppg4e_When.kt" />
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4_djur/DjurMain.kt" />
@@ -268,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/AoC/Dag7/Dag7b.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec2/Dec2HigherOrderFunctionEdition.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec1/Assignment" />
-        <option value="$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt" />
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg8_BinaryOperator/BinaryOperator.kt" />
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg8_BinaryOperator/StringDistortion.kt" />
         <option value="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortion.kt" />
@@ -283,6 +260,11 @@
         <option value="$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt" />
         <option value="$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec9/input.txt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec9/input_mini.txt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec9/Dec9a.kt" />
+        <option value="$PROJECT_DIR$/src/AoC/Dec9/Dec9b.kt" />
       </list>
     </option>
   </component>
@@ -374,8 +356,7 @@
               <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="AoC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Dec8" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Övningsuppgifter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +370,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="kotlin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AoC/Dec8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/AoC/Dec9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -397,11 +378,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec9" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec8" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec6" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec4" />
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec2" />
-      <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\AoC\Dec3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\s_ola\Dropbox\Jobb\Funktionell programmering\Kod\Kotlin\src\Demos" />
@@ -423,33 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.AoC.Dec8.Dec8bKt">
-    <configuration name="AoC.Dec5.Dec5aKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AoC.Dec5.Dec5aKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AoC.Dec6.Dec6aKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="AoC.Dec6.Dec6aKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.AoC.Dec9.Dec9bKt">
     <configuration name="AoC.Dec6.Dec6bKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
@@ -489,13 +444,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AoC.Dec9.Dec9aKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec9.Dec9aKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AoC.Dec9.Dec9bKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="AoC.Dec9.Dec9bKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AoC.Dec9.Dec9bKt" />
+        <item itemvalue="Kotlin.AoC.Dec9.Dec9aKt" />
         <item itemvalue="Kotlin.AoC.Dec8.Dec8bKt" />
         <item itemvalue="Kotlin.AoC.Dec8.Dec8aKt" />
         <item itemvalue="Kotlin.AoC.Dec6.Dec6bKt" />
-        <item itemvalue="Kotlin.AoC.Dec6.Dec6aKt" />
-        <item itemvalue="Kotlin.AoC.Dec5.Dec5aKt" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +507,7 @@
       <workItem from="1606667594875" duration="39680000" />
       <workItem from="1607188069725" duration="7938000" />
       <workItem from="1607254581293" duration="37770000" />
-      <workItem from="1607607482759" duration="9398000" />
+      <workItem from="1607607482759" duration="20539000" />
     </task>
     <task id="LOCAL-00001" summary="added client server demo">
       <created>1606300450853</created>
@@ -605,16 +586,23 @@
       <option name="project" value="LOCAL" />
       <updated>1607605940928</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="AoC 8 done">
+      <created>1607679236953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607679236953</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153061000" />
+    <option name="totallyTimeSpent" value="164202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18518518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17853752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -623,7 +611,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24130435" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3630435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,80 +682,10 @@
     <MESSAGE value="AoC day 7a lösnings-skiss added" />
     <MESSAGE value="AoC day 7a löst" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="AoC 8 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="AoC 8 done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Demos/FunctionalDemo1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg4och6_djur/ÖvnUppg4c_DjurSet.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="999" column="14" selection-start-line="999" selection-start-column="14" selection-end-line="999" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/input_mini.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2_lambdaStyle.kt" />
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="874" column="10" selection-start-line="874" selection-start-column="10" selection-end-line="874" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1158" column="8" selection-start-line="1158" selection-start-column="5" selection-end-line="1158" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/input_mini.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/input_mini_invalid">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Utils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dag7/SnoddKlass.kt" />
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/input.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -809,21 +727,7 @@
     <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg9_HigherOrderFunctions/Map.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/Assignment" />
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg3_gissaTalet/ÖvnUppg3_GissaTalet.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -852,9 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Factorial.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg8_StringDistortion/StringDistortion.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -878,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="55" selection-start-line="43" selection-start-column="2" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7b.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -899,48 +793,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36482">
           <caret line="2146" column="4" selection-start-line="2146" selection-start-column="4" selection-end-line="2146" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#18#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2HigherOrderFunctionEdition.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -958,41 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="610" column="6" selection-start-line="610" selection-start-column="6" selection-end-line="610" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="28" selection-start-line="7" selection-start-column="55" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input_mini.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1000,17 +821,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt">
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="368">
+          <caret line="610" column="6" selection-start-line="610" selection-start-column="6" selection-end-line="610" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg1_VIdeoBandspelare/ÖvnUppg1a_Videobandspelare.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg2_loopar/ÖvnUppg2_loopar.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg1_VIdeoBandspelare/ÖvnUppg1b_Videobandspelare.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Factorial.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Fibonacci.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Reverse.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Sum.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2HigherOrderFunctionEdition.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec2/Dec2.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="55" selection-start-line="43" selection-start-column="2" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8b.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="44" lean-forward="true" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        <state relative-caret-position="68">
+          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#18#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="20" selection-start-line="11" selection-start-column="8" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="28" selection-start-line="7" selection-start-column="55" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec8/Dec8a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec1/Dec1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="5" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#18#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec9/input_mini.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec9/Dec9b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec9/Dec9a.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec9/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="403" selection-start-line="403" selection-end-line="403" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="80" />
         </state>
       </provider>
     </entry>

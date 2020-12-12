@@ -1,6 +1,7 @@
 package AoC.Dec1
 
 import AoC.makeIntList
+import java.io.File
 
 fun findAnswerUppgA(list : List<Int>) : Int{
     for (i in 0..list.size-1){
@@ -27,6 +28,11 @@ fun findAnswerUppgB(list : List<Int>) : Int{
 
 
 fun main(){
+
+    //olika varianter att skapa listor
+    val list : List<Int> = makeIntList("src/AoC/Dec1/input.txt")
+    val list2 = File("src/AoC/Dec1/input.txt").readLines().map{it.toInt()}
+
     println(findAnswerUppgA(makeIntList("src/AoC/Dec1/input.txt")))
     println(findAnswerUppgB(makeIntList("src/AoC/Dec1/input.txt")))
 }
