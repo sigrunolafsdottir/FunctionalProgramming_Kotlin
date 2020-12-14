@@ -1,4 +1,4 @@
-package Övningsuppgifter.ÖvnUppg4och6_djur
+package Övningsuppgifter.ÖvnUppgDjur_4_6_10_11
 
 
 fun main(){
