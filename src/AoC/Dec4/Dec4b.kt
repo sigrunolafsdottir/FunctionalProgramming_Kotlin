@@ -7,7 +7,7 @@ import AoC.makeStringList
 
 fun main(){
 
-    val input = makeStringList ("src/AoC/Dec4/input_mini_invalid")
+    val input = makeStringList ("src/AoC/Dec4/input.txt")
 
     fun assembleData(rawInput : List<String>) : List<String> {
         var result: MutableList<String> = mutableListOf()
@@ -37,7 +37,7 @@ fun main(){
     fun checkOk2(cleanInput : List<String>) : Int {
         var counter : Int = 0
         for (i in cleanInput){
-            var ok : Boolean = true
+            var ok = true
             val fields = i.split(" ")
             println(fields)
             for (j in fields){
@@ -76,18 +76,26 @@ fun main(){
                         }
                     }
                     "hgt" -> {
-                        val (number, unit) = keyVal[1].take(keyVal[1].length -2).toInt() to keyVal[1].takeLast(2)
-                        if (!(unit.equals("cm") || unit.equals("in"))) {
-                            ok = false
-                            println("hgt1 false")
+                        //println("keyVal[0] ${keyVal[0]} keyVal[1] x${keyVal[1]}x")
+                        if(keyVal[1].trim().endsWith("cm") || keyVal[1].trim().endsWith("in")){
+                            //println("${keyVal[0]} ${keyVal[1]}")
+                            val (number, unit) = keyVal[1].take(keyVal[1].length -2).toInt() to keyVal[1].takeLast(2)
+                            if (!(unit.equals("cm") || unit.equals("in"))) {
+                                ok = false
+                                println("hgt1 false")
+                            }
+                            else if (unit.equals("cm") && number !in 150..193 )  {
+                                ok = false
+                                println("hgt2 false")
+                            }
+                            else if (unit.equals("in") && number !in 59..76 )  {
+                                ok = false
+                                println("hgt3 false")
+                            }
                         }
-                        else if (unit.equals("cm") && number !in 150..193 )  {
+                        else {
                             ok = false
-                            println("hgt2 false")
-                        }
-                        else if (unit.equals("in") && number !in 59..76 )  {
-                            ok = false
-                            println("hgt3 false")
+                            println("setting o to false in hgt")
                         }
                     }
                     "cid" -> {}
@@ -95,16 +103,22 @@ fun main(){
                         ok = false
                         println("else happened, unknown field")
                     }
-
                 }
+                println(ok)
             }
-            if (ok) counter++
+            if (ok) {
+                counter++
+                println("found ok passport")
+            }
         }
         return counter
     }
 
     //input.forEach{println(it)}
-   // println(assembleData(input))
-   // println(checkOk1(assembleData(input)))
+    println(assembleData(input))
+   println(checkOk1(assembleData(input)).size)
     println(checkOk2(checkOk1(assembleData(input))))
+
+    // 185 är fel
+    //edit: jag var ETT pass ifrån, tydligen....
 }
