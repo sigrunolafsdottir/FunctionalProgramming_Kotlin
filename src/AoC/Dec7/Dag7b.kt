@@ -2,13 +2,13 @@ package AoC.Dec7
 
 import AoC.makeStringList
 
-//inte klar ännu
+//inte klar ännu, kan hantera raka strukturer, men inte träd :(
 
 fun main(){
 
-    val input = makeStringList ("src/AoC/Dag7/input_mini.txt")
+    val input = makeStringList ("src/AoC/Dec7/input_mini.txt")
 
-    data class Bag(val color : String, val nr : Int)
+    data class Bag(val color : String, val nr : Char)
 
     //jordens fulaste parsning...
     fun buildMap(input : List<String>) : Map<String, MutableList<Bag>> {
@@ -28,11 +28,10 @@ fun main(){
                     val singleBagInfoSplit = j.trim().split(" ")  //varje ord för sig
 
                     if (singleBagInfoSplit[0].trim().get(0).isDigit()) {
-                        println(singleBagInfoSplit[0].trim().get(0).toInt())
                         bagList.add(
                             Bag(
                                 singleBagInfoSplit[1].trim() + " " + singleBagInfoSplit[2].trim(),
-                                singleBagInfoSplit[0].trim().get(0).toInt()
+                                singleBagInfoSplit[0].trim().get(0)
                             )
                         )
                     }
@@ -43,25 +42,37 @@ fun main(){
         return mappie
     }
 
-/*
-    fun calculateNumberOfBags(parentalBags : MutableList<Bag>, bagMap : Map<String, List<Bag>>, lastLen : Int ) : Int {
+    val bagMap = buildMap(input)
+    var acc : Int = 1
+
+    fun calculateNumberOfBags(parentalBag : Bag) : Int {
         var tempList : MutableList<Bag> = mutableListOf()
-        for (i in parentalBags){
-            for (j in bagMap.entries){
-                if (j.value.contains(i) ) if (!parentalBags.contains(j.key))tempList.add(j.key)
+        //hittar nuvarande väskas barn
+        for (j in bagMap.entries){
+            if (j.key.equals(parentalBag.color) ){
+                //println("adding to temp list ${j.key} ${j.value}")
+                tempList.addAll(j.value)
             }
         }
-        parentalBags.addAll(tempList)
-        println("${parentalBags.distinct().size} $parentalBags")
-        return if (lastLen == parentalBags.distinct().size) return parentalBags.distinct().size
-        else calculateNumberOfBags(parentalBags, bagMap, parentalBags.distinct().size )
-    }
-*/
-    val bagMap = buildMap(input)
-    val goldenBag = Bag("shiny gold", 0)
-    var bagList : MutableList<Bag> = mutableListOf(goldenBag)
 
-  //  println(calculateNumberOfBags(bagList, bagMap, 1) -1)
+        var antal : Int = parentalBag.nr.toInt() -48  //sjukt fult, -48 pga ascii-kod
+        println("templist $tempList $antal  $acc")
+        //antal tas med för många gåner eftersom jag gör detta i en for-loop
+        //Måste läsa på hur man traverserar träd och göra om min datastruktur till ett sådant
+        for (i in tempList){  //implicit slutvillkor -> när tempList inte har några element slutar vi snurra
+            println("före rekursivt anrop $antal $acc")
+            acc += antal + (antal * calculateNumberOfBags(i))
+        }
+
+        return acc
+    }
+
+
+    //bagMap.forEach { (key, value) -> println("$key = $value") }
+
+    val goldenBag = Bag("shiny gold", '1')
+
+    println(calculateNumberOfBags(goldenBag) -1)
 
 
 
