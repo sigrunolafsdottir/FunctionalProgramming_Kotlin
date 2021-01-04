@@ -4,7 +4,7 @@ fun main (){
 
     fun sum(ints :List<Int>) : Int {
 
-        fun doSum(sum :Int, counter :Int) : Int  {
+        tailrec fun doSum(sum :Int, counter :Int) : Int  {
             return if (counter == ints.size) sum
             else doSum(sum+ints.get(counter), counter +1 )
         }

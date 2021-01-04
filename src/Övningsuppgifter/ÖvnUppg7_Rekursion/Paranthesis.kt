@@ -2,7 +2,7 @@ package Övningsuppgifter.ÖvnUppg7_Rekursion
 
 fun main () {
 
-    fun paranthesisCount(word :String, count: Int) : Int  {
+    tailrec fun paranthesisCount(word :String, count: Int) : Int  {
         if (word.length == 0) return count
         return if (word.first() == '(') {
             paranthesisCount(word.takeLast(word.count() -1), count + 1)

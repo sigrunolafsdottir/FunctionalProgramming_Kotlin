@@ -4,7 +4,7 @@ fun main (){
 
     fun findMax(ints :List<Int>) : Int {
 
-        fun evaluate(max :Int, counter :Int) : Int  {
+        tailrec fun evaluate(max :Int, counter :Int) : Int  {
             return if (counter == ints.size) max
             else evaluate(if (ints.get(counter) > max) ints.get(counter) else max, counter +1 )
         }

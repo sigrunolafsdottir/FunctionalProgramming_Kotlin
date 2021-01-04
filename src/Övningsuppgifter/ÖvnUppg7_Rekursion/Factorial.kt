@@ -2,11 +2,11 @@ package Övningsuppgifter.ÖvnUppg7_Rekursion
 
 fun factorial(n: Long): Long {
     if (n <= 1) return 1
-    return n * factorial(n - 1)
+    return n * factorial(n - 1)     //not tailrec because of n*
 }
 
 fun factorialWithAccumulator(n: Int): Int {
-    fun factorialAccumulator(acc: Int, n: Int): Int {
+    tailrec fun factorialAccumulator(acc: Int, n: Int): Int {
         return if (n == 0) acc
             else factorialAccumulator(n*acc, n-1)
     }
