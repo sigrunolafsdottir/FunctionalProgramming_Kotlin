@@ -184,18 +184,9 @@
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppgDjur_4_6_10_11/ÖvnUppg4d_DjurMapKt.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppgDjur_4_6_10_11/ÖvnUppg4e_WhenKt$main$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/Kotlin/Övningsuppgifter/ÖvnUppgDjur_4_6_10_11/ÖvnUppg4e_WhenKt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec15/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AoC/Dec15/input_mini.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AoC/Dag7/input_mini.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kotlin/AoC/Dec7/input_mini.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Factorial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Factorial.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Fibonacci.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Fibonacci.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/FindMax.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/FindMax.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Interest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Interest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Paranthesis.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Paranthesis.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Reverse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Reverse.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Sum.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -222,85 +213,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/input.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/input_mini.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/Dec15a.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Factorial.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Sum.kt">
+        <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Fibonacci.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/FindMax.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Interest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Paranthesis.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="67" lean-forward="true" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Reverse.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="510">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#18#106#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -400,7 +321,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="147" />
     <option name="y" value="35" />
-    <option name="width" value="1649" />
+    <option name="width" value="1652" />
     <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -411,7 +332,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -462,6 +382,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -478,20 +399,27 @@
               <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Övningsuppgifter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AoC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Övningsuppgifter" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ÖvnUppg7_Rekursion" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AoC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Dec5" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Kotlin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Kotlin" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="AoC" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Dec6" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,7 +570,9 @@
       <workItem from="1609162433128" duration="2731000" />
       <workItem from="1609605119883" duration="12478000" />
       <workItem from="1609680990255" duration="4779000" />
-      <workItem from="1609772352935" duration="963000" />
+      <workItem from="1609772352935" duration="1648000" />
+      <workItem from="1609942102767" duration="22000" />
+      <workItem from="1610212447998" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="added client server demo">
       <created>1606300450853</created>
@@ -784,11 +714,18 @@
       <option name="project" value="LOCAL" />
       <updated>1609704250924</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="adding tailrec where possible">
+      <created>1609773847568</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609773847568</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220129000" />
+    <option name="totallyTimeSpent" value="221340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,7 +740,7 @@
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17473884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24121557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -812,7 +749,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32826087" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21086957" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21086957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -891,7 +828,8 @@
     <MESSAGE value="Lagt till övningsuppgifter" />
     <MESSAGE value="AoC 4b tillagd" />
     <MESSAGE value="mer AoC" />
-    <option name="LAST_COMMIT_MESSAGE" value="mer AoC" />
+    <MESSAGE value="adding tailrec where possible" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tailrec where possible" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/Dec3b.kt">
@@ -1007,20 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/Dag7a.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
@@ -1051,16 +975,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec7/input_mini.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#18#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AoC/Dec3/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1146,19 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/input_mini.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/Dec15a.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Fibonacci.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1194,6 +1095,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Factorial.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1201,10 +1109,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Övningsuppgifter/ÖvnUppg7_Rekursion/Sum.kt">
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/Dec15a.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/input_mini.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec15/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec5/Dec5b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec4/Dec4b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="122" column="44" selection-start-line="122" selection-start-column="44" selection-end-line="122" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AoC/Dec6/Dec6b.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#18#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
