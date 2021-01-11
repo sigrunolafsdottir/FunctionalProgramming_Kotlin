@@ -22,8 +22,11 @@ fun isThisAPrime(primeCandidate: Int) : Boolean{
 
 fun main(){
     printEvenNumbers()
+    println()
     printEvenNumbers2()
+    println()
     printMultiplication(7, 1, 10)
+    println()
     println(isThisAPrime(22))
     println(isThisAPrime(13))
 }
