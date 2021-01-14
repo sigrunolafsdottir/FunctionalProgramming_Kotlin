@@ -7,9 +7,8 @@ fun main ()  {
     val input: List<String> = File("src/AoC/Dec2/input.txt").readLines()
     var counter : Int = 0
 
-    for (i in 0..input.size-1){
-
-        val parts = input.get(i).split(" ", ":", "-")
+    for (e in input){
+        val parts = e.split(" ", ":", "-")
         val startRange = parts[0].toInt()
         val stopRange = parts[1].toInt()
         val letter = parts[2].trim().single()

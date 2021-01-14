@@ -4,13 +4,13 @@ package Demos
 //dvs "yes" och "no"
 
 fun main() {
-    val yes = "yes"
-    val no = "no"
+    //val yes = "yes"
+    //val no = "no"
     while (true) {
-        val choice = readLine()
+        val choice = readLine()!!.toInt()
         when (choice) {
-            yes, "ja" -> println("Hooray!")
-            no, "nej" -> println("Too bad!")
+            1,3,5,7,9 -> println("Hooray!")
+            2,4,4 -> println("Too bad!")
             else -> println("What?")
         }
     }

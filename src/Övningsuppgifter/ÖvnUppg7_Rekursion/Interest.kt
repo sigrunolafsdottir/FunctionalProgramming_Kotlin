@@ -8,6 +8,6 @@ fun main(){
     }
 
 
-    println(getInterest(100.0, 2, 10.0))
+    println(getInterest(100.0, 5, 10.0))
 
 }

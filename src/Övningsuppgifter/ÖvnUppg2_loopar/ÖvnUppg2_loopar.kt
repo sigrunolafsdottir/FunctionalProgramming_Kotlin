@@ -14,7 +14,7 @@ fun printMultiplication(table: Int, start: Int, stop: Int){
 }
 
 fun isThisAPrime(primeCandidate: Int) : Boolean{
-    for (x in 2..primeCandidate/2) {
+    for (x in 2..primeCandidate/2 step 2) {   /// eg. vill man skära bort alla siffror som inte är primtal
         if (primeCandidate % x == 0) return false
     }
     return true

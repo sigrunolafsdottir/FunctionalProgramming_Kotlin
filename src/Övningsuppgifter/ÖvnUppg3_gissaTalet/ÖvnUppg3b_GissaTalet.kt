@@ -2,7 +2,7 @@ package Övningsuppgifter.ÖvnUppg3_gissaTalet
 
 
 fun main (){
-    var randomNumber = (1..11).random()
+    var randomNumber = (1..10).random()
     println("Gissa en siffra mellan 1 och 10")
     while(true) {
         try{

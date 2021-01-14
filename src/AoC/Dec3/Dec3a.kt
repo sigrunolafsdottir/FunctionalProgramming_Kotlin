@@ -9,7 +9,7 @@ fun main(){
 
     var x : Int = 0
     var counter : Int = 0
-    val width : Int = input.get(0).length
+    val width : Int = input.first().length
     val rowNum : Int = input.size -1
 
     for(y in 1..rowNum){    //iter row
@@ -18,6 +18,5 @@ fun main(){
     }
 
     println(counter)
-
 
 }
