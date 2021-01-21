@@ -21,6 +21,7 @@ fun main(){
         return -1
     }
 
+    println(allSeats)
     println(findMissing(allSeats))
 
 }

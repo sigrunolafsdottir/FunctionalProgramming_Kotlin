@@ -1,6 +1,6 @@
 package Demos
 
-fun unitFun() = Unit
+fun unitFun() :Unit = Unit
 
 fun main() {
     println(unitFun())

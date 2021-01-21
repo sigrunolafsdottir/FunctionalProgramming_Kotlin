@@ -13,6 +13,6 @@ fun <T> List<T>.myFilter(
 
 fun main() {
     val ints = listOf(1, 2, -3, 5, -1)
-    println( ints.myMap { it + 3 } )
+    println( ints.myFilter { it > 0 } )
 
 }

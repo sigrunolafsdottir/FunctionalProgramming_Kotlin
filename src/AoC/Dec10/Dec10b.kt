@@ -53,7 +53,7 @@ fun main(){
         return prod
     }
 
-
+    println(createDinstanceMap())
     println(calculatePermutations(createDinstanceMap()))
 
 

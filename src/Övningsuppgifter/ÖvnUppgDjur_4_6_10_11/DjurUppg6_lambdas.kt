@@ -6,14 +6,14 @@ fun main(){
     var hund = Djur(4, "hund")
     var spindel = Djur(8, "spindel")
 
-    val list = listOf(katt, hund, spindel)
-/*
+    var list = mutableListOf(katt, hund, spindel)
+
+    /*
 //6a. olika alternativ för att skriva ut listan
     for (d in list){
         d.printEverything()
     }
- */
-/*
+
        //6a. alternativ for-loop
        list.forEach{e -> e.printEverything()}
        println()
@@ -21,17 +21,21 @@ fun main(){
        list.forEach{it.printEverything()}
        println()
 
-
        list.forEach({println(it.sort +" "+it.antalBen)})
 
        list.forEach{println(it.sort +" "+it.antalBen)}
 
        //6b. gör om alla djur till grodor
 
-       fun createFrogs(list: List<Djur> ) : List<Djur>{
-           return list.map{Djur(4, "groda") }
+       fun createFrogs(l: MutableList<Djur> ) : MutableList<Djur>{
+           return l.map{Djur(4, "groda") }.toMutableList()
        }
+
+    //list = createFrogs(list)
+
        createFrogs(list).forEach{it.printEverything()}
+
+        list.forEach{println(it.sort +" "+it.antalBen)}
 
        var frogmaker = list.map { Djur(4,"groda") }
        frogmaker.forEach{it.printEverything()}
@@ -47,19 +51,19 @@ fun main(){
     println( list.mapIndexed { index, _ -> "[$index]"})
     println( list.mapIndexed { index, d -> "$index. ${d.sort}"})
 
-    */
 
+*/
 
               //6c. ta bort spindlarna, 2 variationer
 
-/*
+
 
               fun removeSpiders(list: List<Djur> ) : List<Djur>{
                   return list.filter{!it.sort.equals("spindel")}
               }
               removeSpiders(list).forEach{ it.printEverything()}
 
-              var spindelfilter = list.filter{!it.sort.equals("spindel")}
+              var spindelfilter = list.filterNot{it.sort.equals("spindel")}
               spindelfilter.forEach{it.printEverything()}
 
 
@@ -68,7 +72,7 @@ fun main(){
               var kollaKatter = list.any{it.sort.equals("katt")}
               println(kollaKatter)
 
-
+/*
               //6e, högst antal ben
               var numberOfLegs = list.map{it.antalBen }.max()
               println(numberOfLegs)

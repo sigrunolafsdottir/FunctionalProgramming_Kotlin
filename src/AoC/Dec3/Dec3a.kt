@@ -14,6 +14,7 @@ fun main(){
 
     for(y in 1..rowNum){    //iter row
         x = (x+3) % width
+        //x += (3 % width)
         if (input.get(y).get(x) == '#') counter++
     }
 

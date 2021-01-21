@@ -13,5 +13,5 @@ fun main() {
         fib(prev, next, i -1)
     }
 
-    println(fib(1, 2, 1))
+    println(fib(1, 2, 5))
 }

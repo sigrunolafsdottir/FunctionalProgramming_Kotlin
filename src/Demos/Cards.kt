@@ -17,7 +17,7 @@ class Card(val rank: Rank, val suit: Suit) {
         "$rank of ${suit}s"
 }
 
-//inner lambda creates a lsit of all cards in one suite
+//inner lambda creates a list of all cards in one suite
 //outer lambda flattens the deck
 val deck: List<Card> =
     Suit.values().flatMap { suit ->

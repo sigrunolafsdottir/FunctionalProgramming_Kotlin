@@ -12,7 +12,7 @@ fun main() {
 
     val result3 =
         if ('x' < 'y')
-            println("x < y")
+            println("x < y")   //true
         else
             println("x > y")
 

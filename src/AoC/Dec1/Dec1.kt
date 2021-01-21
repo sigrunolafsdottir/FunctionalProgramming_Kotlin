@@ -3,7 +3,7 @@ package AoC.Dec1
 import AoC.makeIntList
 import java.io.File
 
-
+//ordo(n), ordo (n2), ordo(n!)
 
 fun findAnswerUppgA(list : List<Int>) : Int{
     for (i in 0..list.size-1){

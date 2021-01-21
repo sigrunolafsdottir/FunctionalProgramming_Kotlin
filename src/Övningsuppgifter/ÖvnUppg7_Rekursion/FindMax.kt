@@ -10,6 +10,7 @@ fun main (){
         }
 
         var max = Int.MIN_VALUE
+        println(max)
         return evaluate(max, 0)
     }
 

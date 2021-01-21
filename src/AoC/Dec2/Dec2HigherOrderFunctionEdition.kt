@@ -16,6 +16,10 @@ fun main (){
         {password, letter, startRange, stopRange ->
             (password[startRange-1] == letter).xor( password[stopRange-1] == letter)}
 
+// samma, men en ren funktion (inte sparad i en parameter)
+    fun uppgB2( password: CharArray, letter: Char, startRange: Int, stopRange: Int) : Boolean =
+        (password[startRange-1] == letter).xor( password[stopRange-1] == letter)
+
 
     fun doStuff(action: (CharArray, Char, Int, Int) -> Boolean) :Int {
         counter = 0
@@ -33,5 +37,8 @@ fun main (){
 
     println(doStuff(uppgA))
     println(doStuff(uppgB))
+
+    //Alternativ där vi passar en funktion
+    println(doStuff(::uppgB2))
 
 }

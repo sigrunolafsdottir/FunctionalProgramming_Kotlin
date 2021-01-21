@@ -17,6 +17,8 @@ fun main(){
         list2.add(list2.size, list2.max()!!+3)
         list2.sort()
 
+        println(list2)
+
         for (i in 0..list2.size-2){
             when{
                 (list2.get(i+1) - list2.get(i) == 1) -> counter1++

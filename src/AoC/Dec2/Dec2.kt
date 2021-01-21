@@ -3,7 +3,7 @@ package AoC.Dec2
 import java.io.File
 
 fun main ()  {
-
+//1-14 b: bbbbbbbbbbbbbbbbbbb
     val input: List<String> = File("src/AoC/Dec2/input.txt").readLines()
     var counter : Int = 0
 

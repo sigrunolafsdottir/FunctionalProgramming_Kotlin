@@ -4,6 +4,8 @@ fun main(){
 
     val addition: (x : Double, y: Double) -> Double = {x, y -> x + y}
 
+    fun add(x : Double, y: Double) = x+y
+
     val subtraction: (x : Double, y: Double) -> Double = {x, y -> x - y}
 
     val multiplication: (x : Double, y: Double) -> Double = {x, y -> x * y}
@@ -20,8 +22,11 @@ fun main(){
     }
 
     calculator(addition)
+    calculator(::add)
     calculator(subtraction)
     calculator(multiplication)
     calculator(division)
+
+
 
 }
