@@ -14,8 +14,21 @@ class Dec1Test {
     }
 
     @Test
+    fun testA2() {
+        val answer = Dec1(input).solA2()
+        println(answer)
+        assertTrue(answer == 7)
+    }
+
+    @Test
     fun testB() {
         val answer = Dec1Windowed(input).solB()
+        assertTrue(answer == 5)
+    }
+
+    @Test
+    fun testB2() {
+        val answer = Dec1(input).solB2()
         assertTrue(answer == 5)
     }
 

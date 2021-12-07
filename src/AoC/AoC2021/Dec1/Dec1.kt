@@ -8,6 +8,8 @@ class Dec1(data: List<Int>){
 
     val input = data
 
+
+
     fun solA() : Int{
         var counter : Int = 0
 
@@ -19,6 +21,7 @@ class Dec1(data: List<Int>){
 
         return counter
     }
+
 
     fun solB() : Int {
 
@@ -34,10 +37,15 @@ class Dec1(data: List<Int>){
         }
         return counter
     }
+
+    fun solA2() : Int = (1..input.size-1).count{input[it-1] < input[it]}
+    fun solB2() : Int = (1..input.size-3).count{input.slice(it-1..it+1).sum() < input.slice(it..it+2).sum()}
 }
 
 fun main(){
     val data: List<Int> = makeIntList("src/AoC/AoC2021/Dec1/input.txt")
     println("Solution A: "+Dec1(data).solA())
+    println("Solution A: "+Dec1(data).solA2())
     println("Solution B: "+Dec1(data).solB())
+    println("Solution B: "+Dec1(data).solB2())
 }

@@ -9,7 +9,7 @@ fun makeIntListFromOneString (fileName : String) = File(fileName).readLines().ge
 
 fun makeIntListFromBinary (fileName : String) = File(fileName).readLines().map{it.toInt(2)}
 
-
+fun makePairList (fileName : String) = File(fileName).readLines().map{Pair<String, Int>(it.split(" ").first(), it.split(" ").last().toInt()) }
 
 fun makeLongList (fileName : String) = File(fileName).readLines().map{it.toLong()}
 

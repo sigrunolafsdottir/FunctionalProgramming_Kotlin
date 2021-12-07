@@ -1,57 +1,61 @@
 package AoC.AoC2021.Dec2
 
-import AoC.AoC2020.makeIntList
+import AoC.AoC2020.makePairList
 import AoC.AoC2020.makeStringList
 
 
-class Dec2(data: List<String>) {
+class Dec2(data: List<Pair<String, Int>>) {
 
-        val input = data
+    val inputPair = data
 
-        fun solA(): Int {
-            var Xcounter: Int = 0
-            var ycounter: Int = 0
-
-            for (str in input){
-                val instrArray: List<String> = str.split(" ")
-                when (instrArray[0]) {
-                    "forward" -> Xcounter += instrArray[1].toInt()
-                    "down" -> ycounter += instrArray[1].toInt()
-                    "up" -> ycounter -= instrArray[1].toInt()
-                }
-            }
-
-
-            return Xcounter*ycounter
-        }
-
-    fun solB() : Int {
-
+    fun solA(): Int {
         var Xcounter: Int = 0
         var ycounter: Int = 0
-        var aim: Int = 0
 
-        for (str in input){
-            val instrArray: List<String> = str.split(" ")
-            when (instrArray[0]) {
-                "forward" -> {
-                    Xcounter += instrArray[1].toInt()
-                    ycounter += aim * instrArray[1].toInt()
-                }
-                "down" -> aim += instrArray[1].toInt()
-                "up" -> aim -= instrArray[1].toInt()
+        for (p in inputPair) {
+            when (p.first) {
+                "forward" -> Xcounter += p.second
+                "down" -> ycounter += p.second
+                "up" -> ycounter -= p.second
             }
         }
 
-
-        return Xcounter*ycounter
+        return Xcounter * ycounter
     }
+
+    fun solA2(): Int {
+        return inputPair.filter { it.first.equals("forward") }.map { it.second }.sum() *
+                (inputPair.filter { it.first.equals("down") }.map { it.second }.sum()
+                        - inputPair.filter { it.first.equals("up") }.map { it.second }.sum())
+
+    }
+
+
+    fun solB(): Int {
+
+        var Xcounter = 0
+        var ycounter = 0
+        var aim = 0
+
+        for (p in inputPair) {
+            when (p.first) {
+                "forward" -> {
+                    Xcounter += p.second
+                    ycounter += aim * p.second
+                }
+                "down" -> aim += p.second
+                "up" -> aim -= p.second
+            }
+        }
+
+        return Xcounter * ycounter
+    }
+
 }
 
-
-
     fun main(){
-        val data: List<String> = makeStringList("src/AoC/AoC2021/Dec2/input.txt")
+        val data: List<Pair<String, Int>> = makePairList("src/AoC/AoC2021/Dec2/input.txt")
         println("Solution A: "+Dec2(data).solA())
+        println("Solution A: "+Dec2(data).solA2())
         println("Solution B: "+Dec2(data).solB())
     }
