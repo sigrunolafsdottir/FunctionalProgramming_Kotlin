@@ -1,17 +1,20 @@
 package AoC.AoC2021.Dec2
 
 
+import AoC.AoC2020.makeIntListFromOneString
+import AoC.AoC2020.makePairList
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 class Dec2Test {
 
-    val input = listOf("forward 5",
-            "down 5",
-            "forward 8",
-            "up 3",
-            "down 8",
-            "forward 2")
+    val input = listOf(Pair("forward", 5),
+        Pair("down", 5),
+            Pair("forward", 8),
+                Pair("up", 3),
+                    Pair("down", 8),
+                        Pair("forward", 2))
+
 
     @Test
     fun testA() {

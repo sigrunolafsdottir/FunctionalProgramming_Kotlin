@@ -8,7 +8,7 @@ import AoC.AoC2020.makeStringList
 class Dec7(data: List<Int>) {
 
     val input = data
-    val maxVal = input.max()!!
+    val maxVal = input.maxOrNull() ?: 0
 
 
     fun fillMatrixFunc(fuelFunc: (a: Int, b: Int) -> Int): MutableList<MutableList<Int>>{
@@ -26,8 +26,10 @@ class Dec7(data: List<Int>) {
     val fuelFuncA : (a: Int, b:Int) -> Int = { a,b -> Math.abs(a-b)}
     val fuelFuncB : (a: Int, b:Int) -> Int = { a,b -> (0..Math.abs(a-b)).sum()}
 
-    fun solA(): Int = fillMatrixFunc(fuelFuncA).map{it.sum()}.min()!!
-    fun solB(): Int = fillMatrixFunc(fuelFuncB).map{it.sum()}.min()!!
+    fun solA(): Int = fillMatrixFunc(fuelFuncA).map{it.sum()}.minOrNull() ?: 0
+    fun solB(): Int = fillMatrixFunc(fuelFuncB).map{it.sum()}.minOrNull() ?: 0
+
+
 }
 
 

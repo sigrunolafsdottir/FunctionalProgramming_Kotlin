@@ -3,7 +3,7 @@ package AoC.AoC2020.Dec9
 import java.io.File
 
 fun main(){
-
+/*
     val input: List<Long> = File("src/AoC/Dec9/input.txt").readLines().map{it.toLong()}
     val target: Long = 26134589  //from uppg9A
 
@@ -33,5 +33,5 @@ fun main(){
 
     println(isItAddingUp())
 
-
+*/
 }

@@ -1,7 +1,7 @@
 package AoC.AoC2020.Dec10
 
 import java.io.File
-
+/*
 fun main(){
 
 
@@ -16,7 +16,7 @@ fun main(){
         list2.sort()
         return list2.zipWithNext { a, b -> b - a }
     }
-
+*/
 /*
     Vid följande tillfällen finns det flera variationer
     3, 1, 1, 3 -> 3, 2, 3  ex:  7, 10, 11, 12, 15 -> 7, 10, 12, 15  => 2 ettor, 2 varianter
@@ -29,7 +29,7 @@ fun main(){
     och med 7 när vi hittar 4 1<.or i rad
 
  */
-
+/*
     fun calculatePermutations(distanceMap : List<Long>): Long{
         var onesInARow = 0
         var prod : Long = 1
@@ -58,3 +58,5 @@ fun main(){
 
 
 }
+
+ */

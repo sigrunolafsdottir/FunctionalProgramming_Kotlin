@@ -40,6 +40,7 @@ class Dec1(data: List<Int>){
 
     fun solA2() : Int = (1..input.size-1).count{input[it-1] < input[it]}
     fun solB2() : Int = (1..input.size-3).count{input.slice(it-1..it+1).sum() < input.slice(it..it+2).sum()}
+    fun solB3() : Int = (1..input.size-3).count{input[it-1] < input[it+1]}
 }
 
 fun main(){
@@ -48,4 +49,5 @@ fun main(){
     println("Solution A: "+Dec1(data).solA2())
     println("Solution B: "+Dec1(data).solB())
     println("Solution B: "+Dec1(data).solB2())
+    println("Solution B: "+Dec1(data).solB3())
 }

@@ -3,7 +3,7 @@ package AoC.AoC2020.Dec10
 import java.io.File
 
 fun main(){
-
+/*
     val input2: List<Int> = File("src/AoC/Dec10/input.txt")
         .readLines().map{it.toInt()}
 
@@ -40,11 +40,13 @@ fun main(){
             .eachCount()
             .values
             .reduce(Int::times)
+
+
     }
 
 
     //println(input)
     println(calc2())
     println(calc3())
-
+*/
 }

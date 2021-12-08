@@ -1,7 +1,6 @@
 package AoC.AoC2021.Dec2
 
 import AoC.AoC2020.makePairList
-import AoC.AoC2020.makeStringList
 
 
 class Dec2(data: List<Pair<String, Int>>) {

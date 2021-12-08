@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test
 class Dec7Test {
 
     val data: List<Int> = makeIntListFromOneString("src/AoC/AoC2021/Dec7/input_mini.txt")
-
+/*
     @Test
     fun testA() {
         val answer = Dec7(data).solA()
@@ -26,5 +26,5 @@ class Dec7Test {
         assertTrue(answer == 168)
     }
 
-
+*/
 }
