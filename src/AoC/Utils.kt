@@ -7,6 +7,8 @@ fun makeIntList (fileName : String) = File(fileName).readLines().map{it.toInt()}
 
 fun makeIntListFromOneString (fileName : String) = File(fileName).readLines().get(0).split(",").map{it.toInt()}
 
+fun makeIntListFromConcatenatedString(fileName : String)  = File(fileName).readLines().map { it.toList().map { Character.getNumericValue(it) } }
+
 fun makeIntListFromBinary (fileName : String) = File(fileName).readLines().map{it.toInt(2)}
 
 fun makePairList (fileName : String) = File(fileName).readLines().map{Pair(it.split(" ").first(), it.split(" ").last().toInt()) }
@@ -17,12 +19,13 @@ fun makeLongList (fileName : String) = File(fileName).readLines().map{it.toLong(
 
 fun makeStringList (fileName : String) = File(fileName).readLines()
 
+
+
 fun createMatrix(x : Int, y : Int, start : Int) : MutableList<MutableList<Int>>{
     var matrix : MutableList<MutableList<Int>> = mutableListOf()
     for (i in 0 ..y-1){
         matrix.add(IntArray(x) { start }.toMutableList())
     }
-    println(matrix)
     return matrix
 }
 

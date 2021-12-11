@@ -82,6 +82,6 @@ fun main() {
         -2 to "minus two")
     println(map2.any { (key, _) -> key < 0 } )  // true pga -2
     println(map2.all { (key, _) -> key < 0 }  ) // false pga 1
-    println(map2.maxBy { it.key } ) // “one”, hittar max
+ //   println(map2.maxBy { it.key } ) // “one”, hittar max
 
 }
