@@ -5,20 +5,17 @@ package Övningsuppgifter.ÖvnUppg1_VIdeoBandspelare
 
 fun main() {
 
-    fun programLength(startH: Int, startM: Int, stopH: Int, stopM: Int): Int =
+    fun programLength(startH: Int, startM: Int, stopH: Int, stopM: Int) =
         60*(stopH - startH) + stopM - startM
 
-    fun lengthLeft(fullLen: Int, takenLen: Int): Int = fullLen - takenLen
+    fun lengthLeft(fullLen: Int, takenLen: Int) = fullLen - takenLen
 
-    fun doesProgramFitOnTape(lenVideo: Int, lenProgram: Int): Boolean =
+    fun doesProgramFitOnTape(lenVideo: Int, lenProgram: Int) =
         if (lenVideo - lenProgram >= 0) true else false
 
-
-    fun enoughTime(fullVideoLen: Int, takenVideoLen: Int, startH: Int, startM: Int, stopH: Int, stopM: Int)
-            : Boolean =
+    fun enoughTime(fullVideoLen: Int, takenVideoLen: Int, startH: Int, startM: Int, stopH: Int, stopM: Int) =
         doesProgramFitOnTape(lengthLeft(fullVideoLen, takenVideoLen),
             programLength(startH, startM, stopH, stopM))
-
 
     println(enoughTime(90, 30, 20, 0, 20, 30))
     println(enoughTime(90, 30, 20, 45, 21, 15))
