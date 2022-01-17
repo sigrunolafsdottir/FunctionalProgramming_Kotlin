@@ -10,7 +10,7 @@ fun main() {
         val choice = readLine()!!.toInt()
         when (choice) {
             1,3,5,7,9 -> println("Hooray!")
-            2,4,4 -> println("Too bad!")
+            2,4,6 -> println("Too bad!")
             else -> println("What?")
         }
     }

@@ -13,6 +13,10 @@ fun makeIntListFromBinary (fileName : String) = File(fileName).readLines().map{i
 
 fun makePairList (fileName : String) = File(fileName).readLines().map{Pair(it.split(" ").first(), it.split(" ").last().toInt()) }
 fun makePairList2 (fileName : String, delimiter: String) = File(fileName).readLines().map{Pair(it.split(delimiter).first().trim(), it.split(delimiter).last().trim()) }
+fun makePairList3 (fileName : String, delimiter: String) = File(fileName).readLines().map{Pair(it.split(delimiter).first().trim().toInt(), it.split(delimiter).last().trim().toInt()) }
+
+fun makeMap (fileName : String, delimiter: String) = File(fileName).readLines().map { it.split(delimiter) }.associate { (a, b) -> a to b }
+fun makeMapGroupBy (fileName : String, delimiter: String) = File(fileName).readLines().map { it.split(delimiter) }.groupBy { it.first() }
 
 
 fun makeLongList (fileName : String) = File(fileName).readLines().map{it.toLong()}

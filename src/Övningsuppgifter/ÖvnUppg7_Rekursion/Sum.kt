@@ -5,8 +5,9 @@ fun main (){
     fun sum(ints :List<Int>) : Int {
 
         tailrec fun doSum(sum :Int, counter :Int) : Int  {
+            //println(sum)
             return if (counter == -1) sum
-            else doSum(sum+ints.get(counter), counter -1 )
+            else doSum(sum+ints[counter], counter -1 )
         }
 
         return doSum(0, ints.size-1)

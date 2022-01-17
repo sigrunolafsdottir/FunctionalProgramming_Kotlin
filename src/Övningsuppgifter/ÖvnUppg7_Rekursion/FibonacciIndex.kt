@@ -1,5 +1,6 @@
 package Övningsuppgifter.ÖvnUppg7_Rekursion
 
+//1,2,3,5,8,13,21,34,55 etc
 fun main() {
 
     tailrec fun fib(prevPrev: Int, prev: Int, i : Int) {

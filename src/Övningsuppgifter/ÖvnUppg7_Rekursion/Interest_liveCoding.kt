@@ -9,10 +9,6 @@ fun main(){
 
     }
 
-    fun getInterestOscar(amount: Double, years: Int, interest: Double): Double =
-        if (years == 0) amount else getInterest((amount + amount*interest /100),
-            years -1, interest)
-
 
     //println(getInterest(100.0, 2, 10.0))
     println(getInterest(100.0, 5, 10.0))

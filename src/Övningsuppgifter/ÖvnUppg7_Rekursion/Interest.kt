@@ -7,7 +7,5 @@ fun main(){
         else getInterest ((amount + amount*interest / 100), years-1, interest)
     }
 
-
-    println(getInterest(100.0, 5, 10.0))
-
+    println(getInterest(100.0, 3, 10.0))
 }

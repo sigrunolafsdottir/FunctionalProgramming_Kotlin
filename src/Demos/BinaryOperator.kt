@@ -4,7 +4,7 @@ fun main(){
 
     val addition: (x : Double, y: Double) -> Double = {x, y -> x + y}
 
-    fun add(x : Double, y: Double) = x+y
+    fun add(x : Double, y: Double) = x+y   //classic function, just for comparation
 
     val subtraction: (x : Double, y: Double) -> Double = {x, y -> x - y}
 

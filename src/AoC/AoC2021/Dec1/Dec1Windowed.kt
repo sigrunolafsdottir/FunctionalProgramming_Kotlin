@@ -8,7 +8,7 @@ class Dec1Windowed(data: List<Int>) {
 
     val input = data
 
-    fun solA()  = input.windowed(2).filter{it.elementAt(0) < it.elementAt(1)}.count()
+    fun solA() = input.windowed(2).filter{it.elementAt(0) < it.elementAt(1)}.count()
 
     fun solB() = input.windowed(3).map{it.sum()}.windowed(2).count{it[0] < it[1]}
 }

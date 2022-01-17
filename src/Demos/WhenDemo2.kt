@@ -11,6 +11,7 @@ fun main() {
         when  {
             choice.equals(yes) -> println("Hooray!")
             choice.equals(no) -> println("Too bad!")
+            choice.equals("hej") -> println("hej på dig")
             else -> println("What?")
         }
     }

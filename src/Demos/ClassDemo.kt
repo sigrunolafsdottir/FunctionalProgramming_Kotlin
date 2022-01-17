@@ -6,6 +6,7 @@ class House () {
             return field
         }
         set(value) {
+            println("in setter")
           field = value
         }
     var isRadhus: Boolean = true
@@ -16,7 +17,7 @@ class House () {
             field = value
         }
 
-    fun presentation() = println("jag har $rooms")
+    fun presentation() = println("jag har $rooms rum")
 }
 
 fun main(){

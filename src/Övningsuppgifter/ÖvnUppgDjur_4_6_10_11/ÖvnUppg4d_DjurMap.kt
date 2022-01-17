@@ -16,6 +16,8 @@ fun main() {
     for ((key, value) in map1)      // [3]
         println("$key=${value.sort}")
 
+    println()
+
     for ((key, value) in map2)      // [3]
-        println("$key=$value")
+        println("$key=$value.")
 }

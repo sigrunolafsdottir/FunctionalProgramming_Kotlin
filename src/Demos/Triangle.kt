@@ -16,6 +16,8 @@ private class Triangle (h: Int, w: Int) {
         set(value) {
             field =value
         }
+
+    private fun test2() = "hej"
 }
 
 private fun test() = "hej"
@@ -26,5 +28,10 @@ fun main(){
     println(r.w)
     r.h = 5
     println(r.h)
+    println(test())
+   // println(r.test2())
 
+    //Vi hittar denna, fast den står i en annan fil, för Appartement är publik
+    val app = Appartement(5)
+    println(app.presentation())
 }

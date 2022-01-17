@@ -25,11 +25,12 @@ fun main(){
     println()
     printEvenNumbers2()
     println()
-    printMultiplication(7, 1, 10)
+    printMultiplication(13, 2, 10)
     println()
     println(isThisAPrime(22))
     println(isThisAPrime(13))
     println(isThisAPrime(9))
+    println(isThisAPrime(1))
 }
 
 
