@@ -3,9 +3,9 @@ package Övningsuppgifter.ÖvnUppg8_StringDistortion
 
 fun main(){
 
-    val toUpperCase: (s : String) -> String = {it.toUpperCase()}
+    val toUpperCase: (s : String) -> String = {it.uppercase()}
 
-    val toLowerCase = {s:String -> s.toLowerCase()}
+    val toLowerCase = {s:String -> s.lowercase()}
 
     val removeBlanks: (s : String) -> String = {it.filterNot{it.isWhitespace()}}
 
@@ -21,7 +21,7 @@ fun main(){
     stringDistort(toLowerCase)
 
     //exempel på lambda direkt, utan parameter
-    stringDistort({it.toLowerCase()})
+    stringDistort({it.lowercase()})
 
     stringDistort(removeBlanks)
 

@@ -2,7 +2,13 @@ package Demos
 
 fun main(){
 
-    val addition: (x : Double, y: Double) -> Double = {x, y -> x + y}
+    val addition: (x : Double, y: Double) -> Double = {x, y -> x+y}
+
+    //exempel anrop
+    println(addition(3.0, 5.4))
+
+    //addition utan funktion
+    val addTest: Double = 4.0+6.7
 
     fun add(x : Double, y: Double) = x+y   //classic function, just for comparation
 
@@ -26,7 +32,5 @@ fun main(){
     calculator(subtraction)
     calculator(multiplication)
     calculator(division)
-
-
 
 }
