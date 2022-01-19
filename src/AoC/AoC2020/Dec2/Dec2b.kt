@@ -6,7 +6,7 @@ var counter : Int = 0
 
 fun main ()  {
 
-    val input: List<String> = File("src/AoC/Dec2/input.txt").readLines()
+    val input: List<String> = File("src/AoC/AoC2020/Dec2/input.txt").readLines()
   //  1-14 b: bbbbbbbbbbbbbbbbbbb
     for (i in 0..input.size-1){
         val parts = input.get(i).split(" ", ":", "-")

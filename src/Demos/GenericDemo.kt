@@ -6,7 +6,7 @@ class GenericHolder<T>(private val value: T) {
 
 fun main() {
     val h2 = GenericHolder(1)
-    val i: Int = h2.getValue()         // ger i
+    val i: Int = h2.getValue()         // ger 1
     println(i)
 
     val h3 = GenericHolder("Chartreuse")

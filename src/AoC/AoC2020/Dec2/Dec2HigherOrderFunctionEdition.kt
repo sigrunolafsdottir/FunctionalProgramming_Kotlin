@@ -31,6 +31,8 @@ fun main (){
             val password = parts[4].toCharArray()
             if (action(password, letter, startRange, stopRange)) counter++
         }
+
+
         return counter
     }
 

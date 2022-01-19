@@ -3,11 +3,11 @@ package Övningsuppgifter.ÖvnUppg9_HigherOrderFunctions
 fun <T,S> List<T>.myMap(
     function: (T) -> (S)
 ): List<S> {
-    var list : List<S> = listOf<S>()
+    var res : List<S> = listOf<S>()
     for (element in this) {
-        list += function(element)
+        res += function(element)
     }
-    return list
+    return res
 }
 
 fun main() {
