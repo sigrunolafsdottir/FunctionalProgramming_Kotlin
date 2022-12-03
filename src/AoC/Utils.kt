@@ -15,6 +15,8 @@ fun makePairList (fileName : String) = File(fileName).readLines().map{Pair(it.sp
 fun makePairList2 (fileName : String, delimiter: String) = File(fileName).readLines().map{Pair(it.split(delimiter).first().trim(), it.split(delimiter).last().trim()) }
 fun makePairList3 (fileName : String, delimiter: String) = File(fileName).readLines().map{Pair(it.split(delimiter).first().trim().toInt(), it.split(delimiter).last().trim().toInt()) }
 
+fun makePairList4 (fileName : String) = File(fileName).readLines().map{Pair(it.substring(0, it.length/2), it.substring(it.length/2)) }
+
 fun makeMap (fileName : String, delimiter: String) = File(fileName).readLines().map { it.split(delimiter) }.associate { (a, b) -> a to b }
 fun makeMapGroupBy (fileName : String, delimiter: String) = File(fileName).readLines().map { it.split(delimiter) }.groupBy { it.first() }
 
@@ -56,3 +58,5 @@ fun createLongList(len : Int, startVal : Long) : MutableList<Long>{
     }
     return list
 }
+
+

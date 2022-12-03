@@ -18,7 +18,7 @@ fun main() {
         names.zip(ages) { name, age ->
             Person(name, age)
         }
-
+/*
     println(people())
 
 //Åldern blir nyckel, Person-objekten värden
@@ -39,6 +39,11 @@ fun main() {
 
     println(ABMap)
 
+    val ABMap2: Map<Int, Person> =
+        people().associateBy { it.age }
+
+    println(ABMap2)
+*/
     //-------------------------
 
     val map = mapOf(
@@ -46,6 +51,8 @@ fun main() {
         2 to "two", 3 to "three", 4 to "four"
     )
 
+    println(map)
+    map.forEach {(k,v) -> print(k); v.forEach { print(it) } }
 
     println(map.filterKeys { it % 2 == 1 } )
 
@@ -82,6 +89,6 @@ fun main() {
         -2 to "minus two")
     println(map2.any { (key, _) -> key < 0 } )  // true pga -2
     println(map2.all { (key, _) -> key < 0 }  ) // false pga 1
- //   println(map2.maxBy { it.key } ) // “one”, hittar max
+    println(map2.maxByOrNull { it.key }) // “one”, hittar max
 
 }
