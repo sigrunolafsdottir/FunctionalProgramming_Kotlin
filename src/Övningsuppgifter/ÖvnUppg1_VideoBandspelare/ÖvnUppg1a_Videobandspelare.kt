@@ -1,4 +1,4 @@
-package Övningsuppgifter.ÖvnUppg1_VIdeoBandspelare
+package Övningsuppgifter.ÖvnUppg1_VideoBandspelare
 
 
 //Detta program är skrivet som om det vore Java

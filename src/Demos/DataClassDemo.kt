@@ -1,6 +1,5 @@
 package Demos
 
-
     class Person(val name: String)
 
     data class DataPerson(val name: String)

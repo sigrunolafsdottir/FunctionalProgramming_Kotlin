@@ -1,4 +1,5 @@
 
+
 if (4 > 7) println("hej") else println("hopp")
 
 if (4 > 7){
@@ -22,6 +23,9 @@ testFun()
 fun testFun2() = if (4 > 7) "hej" else if (4 < 7) "hopp" else "nej"
 
 testFun2()
+
+
+
 
 
 
