@@ -54,7 +54,6 @@ class Dec2FirstAttempt(data: List<String>) {
 
 fun main(){
     val data: List<String> = File("src/AoC/AoC2022/Dec2/input.txt").readLines()
-    //val data: List<Pair<String, String>> = makePairList2("src/AoC/AoC2022/Dec2/input.txt")
     println("Solution A: "+ Dec2FirstAttempt(data).solA())
     println("Solution B: "+ Dec2FirstAttempt(data).solB())
 
