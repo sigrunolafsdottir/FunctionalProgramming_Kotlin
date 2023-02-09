@@ -4,14 +4,14 @@ package Övningsuppgifter.ÖvnUppg1_VideoBandspelare
 //All length in Minutes
 
 fun main() {
-
+//                     19            45            20         30
     fun programLength(startH: Int, startM: Int, stopH: Int, stopM: Int) =
         60*(stopH - startH) + stopM - startM
 
     fun lengthLeft(fullLen: Int, takenLen: Int) = fullLen - takenLen
 
     fun doesProgramFitOnTape(lenVideo: Int, lenProgram: Int) =
-        if (lenVideo - lenProgram >= 0) true else false
+        lenVideo - lenProgram >= 0
 
     fun enoughTime(fullVideoLen: Int, takenVideoLen: Int, startH: Int, startM: Int, stopH: Int, stopM: Int) =
         doesProgramFitOnTape(lengthLeft(fullVideoLen, takenVideoLen),

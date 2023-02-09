@@ -6,7 +6,7 @@ package Övningsuppgifter.ÖvnUppg1_VideoBandspelare
 
 fun getProgramLengthInMinutes(pStartH: Int, pStartM: Int, pStopH: Int, pStopM: Int): Int {
     val deltaH = pStopH - pStartH
-    val deltaM = pStopM - pStartM
+    val deltaM = pStopM - pStartM  //kan bli både positiv och negativ
     return 60*deltaH + deltaM
 }
 
