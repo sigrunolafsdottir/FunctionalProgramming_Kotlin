@@ -5,9 +5,23 @@ fun main(){
     fun writeBackwards(ch :List<Char>) : Unit  {
         if (ch.size == 0) return
         writeBackwards (ch.takeLast(ch.count() -1))
-        println(ch.first())  //not tailrec because of println last
+        println(ch.first())
     }
 
+    fun writeBackwardsString(s :String)  {
+        if (s.isEmpty()) return
+        writeBackwardsString (s.takeLast(s.length -1))
+        println(s.first())
+    }
+
+    fun writeBackwardsString2(s :String) : String {
+        if (s.isEmpty()) return ""
+        return writeBackwardsString2 (s.takeLast(s.length -1)) + s.first()
+    }
+
+
     println(writeBackwards(listOf('h','e','l','l','o')))
+    println(writeBackwardsString("sigrun"))
+    println(writeBackwardsString2("sigrun"))
 
 }
