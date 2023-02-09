@@ -20,8 +20,8 @@ fun main(){
     }
 
 
-    println(writeBackwards(listOf('h','e','l','l','o')))
-    println(writeBackwardsString("sigrun"))
+    writeBackwards(listOf('h','e','l','l','o'))
+    writeBackwardsString("sigrun")
     println(writeBackwardsString2("sigrun"))
 
 }
