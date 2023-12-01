@@ -12,19 +12,25 @@ fun main(){
 
     val removeBlanks: (s : String) -> String = {it.filterNot{it.isWhitespace()}}
 
+    fun myToUpperCase(s : String) : String = s.uppercase()
 
-    fun stringDistort(distort : (String) -> String){
+
+    fun stringDistort(distort : (String) -> String = toUpperCase ) {
         println("Skriv in en sträng:")
         val s = readLine()!!
 
         println(distort(s))
     }
 
+    stringDistort()
+    stringDistort(::myToUpperCase)
+
     stringDistort(toUpperCase)
     stringDistort(toLowerCase)
 
     //exempel på lambda direkt, utan parameter
     stringDistort({it.lowercase()})
+    stringDistort{it.lowercase()}
 
     stringDistort(removeBlanks)
 

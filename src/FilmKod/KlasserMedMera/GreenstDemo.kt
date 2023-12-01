@@ -2,7 +2,7 @@ package FilmKod.KlasserMedMera.GreenestDemo
 
 
 interface feedable{
-    fun feedMe() = 0.2
+    fun feedMe() : Double
 }
 
 abstract class Plant (var height:Double, val name: String, val ft:FoodType) : feedable
@@ -15,7 +15,9 @@ class CarnivorousPlant (height:Double, name: String, ft:FoodType) : Plant (heigh
     override fun feedMe() = 0.1 + 0.2 * height
 }
 
-class Cactus (height:Double, name: String, ft:FoodType) : Plant (height, name, ft)
+class Cactus (height:Double, name: String, ft:FoodType) : Plant (height, name, ft){
+    override fun feedMe() = 0.2
+}
 
 enum class FoodType (val niceName : String){
     PROTEINDRYCK("proteindryck"),
@@ -40,7 +42,5 @@ fun main(){
             println("${plant.name} ska få ${plant.feedMe()}  ${plant.ft.niceName}")
         }
     }
-
-
 }
 

@@ -20,4 +20,6 @@ fun main() {
 
     for ((key, value) in map2)      // [3]
         println("$key=$value.")
+
+    map1.forEach{e -> println("${e.key} - ${e.value}")}
 }

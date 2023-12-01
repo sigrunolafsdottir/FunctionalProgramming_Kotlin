@@ -58,9 +58,11 @@ repeat (1, "Hi Hi")
 
 
 fun main(){
+    val s = "sigrun"
+    println(s.doubleUp())
     println("Hi".repeatUsingRecursion(3))
-   // println("Hi".doubleUp())
-   // println("Hi".printRepeat(5))
-    //println("Hi".printRepeatFrPhilip(3))
-    //println("Hi".printRepeatFrPhilip2(3))
+    println("Hi".doubleUp())
+    println("Hi".printRepeat(5))
+    println("Hi".printRepeatFrPhilip(3))
+    println("Hi".printRepeatFrPhilip2(3))
 }

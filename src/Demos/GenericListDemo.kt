@@ -1,7 +1,7 @@
 package Demos
 
 fun <T> List<T>.myAny ( pred: (T) -> Boolean): Boolean {
-    for (element in this) {   //this refererear till current object of List<T>
+    for (element in this) {           //this refererear till current object of List<T>
         if (pred(element))
             return true
     }

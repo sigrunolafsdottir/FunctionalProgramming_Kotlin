@@ -13,4 +13,5 @@ fun main() {
     println(u1)
     val u2 = println(0) // Type inference
     println(u2)
+
 }

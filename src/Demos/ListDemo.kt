@@ -12,8 +12,9 @@ fun main() {
 
     for (e in ints) {
         print("$e ")
+        print(e)
     }
-    println("")
+    println(" ")
 
       //om vi inte stoppar in värden i listOf måste vi ange typ
       val list2 : MutableList<String> = mutableListOf()
@@ -25,9 +26,10 @@ fun main() {
 
       //elementen i en lista kan pekas ut som i en java-array med []
       for (e in 0..mutubleInts.size-1) {
-          println(mutubleInts[e])
-          println(mutubleInts.get(e))
+          print(mutubleInts[e])
+          print(mutubleInts.get(e))
       }
+    println(" ")
 
       //massa olika metoder för listor
       println(ints.takeLast(2))
@@ -37,7 +39,7 @@ fun main() {
       println(ints.lastIndexOf(2))
       println()
 
-      println(ints.joinToString(" aa ", prefix=" bb ") {"[${it+2}]"} )
+      println(ints.joinToString(" aa ", prefix=" bb ", postfix=" cc ") {"[${it+2}]"} )
       println(ints.joinToString(" aa ", transform = {"[${it-2}]"}) )
       println()
 

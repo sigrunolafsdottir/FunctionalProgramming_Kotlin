@@ -24,6 +24,7 @@ fun main(){
     println(list1.filter({it < 20}).any())
 
     println(list1.any{it < 20})
+    println(list1.all{it < 20})
 
     println(list1.joinToString { " $it " })
 

@@ -4,8 +4,6 @@ package Demos
 //dvs "yes" och "no"
 
 fun main() {
-    //val yes = "yes"
-    //val no = "no"
     while (true) {
         val choice = readLine()!!.toInt()
         when (choice) {

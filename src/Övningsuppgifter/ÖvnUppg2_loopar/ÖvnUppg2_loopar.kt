@@ -1,9 +1,10 @@
 package Övningsuppgifter.ÖvnUppg2_loopar
 
 
-fun printEvenNumbers(){
+fun printEvenNumbers() {
     for (x in 20 downTo 1) if (x %2 == 0) println(x)
 }
+
 
 fun printEvenNumbers2(){
     for (x in 20 downTo 1 step 2) println(x)

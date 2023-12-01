@@ -18,7 +18,7 @@ fun main() {
         names.zip(ages) { name, age ->
             Person(name, age)
         }
-/*
+
     println(people())
 
 //Åldern blir nyckel, Person-objekten värden
@@ -33,7 +33,7 @@ fun main() {
 
     println(AWMap)
 
-    //Nmanet bir nyckel, PersonObjektet värde
+    //Namnet bir nyckel, PersonObjektet värde
     val ABMap: Map<String, Person> =
         people().associateBy { it.name }
 
@@ -43,7 +43,7 @@ fun main() {
         people().associateBy { it.age }
 
     println(ABMap2)
-*/
+
     //-------------------------
 
     val map = mapOf(
