@@ -26,6 +26,7 @@ fun enoughTime(fullLen: Int, takenLen: Int, pStartH: Int, pStartM: Int, pStopH: 
 }
 
 fun main() {
+
     println(enoughTime(90, 30, 20, 0, 20, 30))
     println(enoughTime(90, 30, 20, 45, 21, 15))
     println(enoughTime(90, 30, 20, 30, 21, 15))
