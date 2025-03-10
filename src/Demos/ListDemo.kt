@@ -8,7 +8,8 @@ fun main() {
     println( ints )
 
     //VI kan inte adda till en lista som inte är mutable
-    //ints.add(6)
+   // ints.add(6)
+    //  ints.set(1,0) //vi kan inte ändra ett värde, trots att listan är var
 
     for (e in ints) {
         print("$e ")
@@ -17,17 +18,19 @@ fun main() {
     println(" ")
 
       //om vi inte stoppar in värden i listOf måste vi ange typ
-      val list2 : MutableList<String> = mutableListOf()
+    val list2 : MutableList<String> = mutableListOf()
 
       //om vi ska kunna ändra i listan måste vi använda me mutable List
-      val mutubleInts = mutableListOf(3,5,7,8,9)
-      mutubleInts.add(7)
-      mutubleInts += 8    //funkar som add
+    val mutableInts = mutableListOf(3,5,7,8,9)  // 7, 8
+    mutableInts.add(7)
+    mutableInts += 8    //funkar som add
+    mutableInts.set(0, 1)
+
 
       //elementen i en lista kan pekas ut som i en java-array med []
-      for (e in 0..mutubleInts.size-1) {
-          print(mutubleInts[e])
-          print(mutubleInts.get(e))
+      for (e in 0..mutableInts.size-1) {
+          print(mutableInts[e])
+          print(mutableInts.get(e))
       }
     println(" ")
 

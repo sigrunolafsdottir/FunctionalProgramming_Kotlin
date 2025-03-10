@@ -2,7 +2,7 @@ package Övningsuppgifter.ÖvnUppg9_HigherOrderFunctions
 
 fun <T,S> List<T>.myMap(function: (T) -> (S)): List<S> {
 
-    var res : List<S> = listOf<S>()
+    var res : MutableList<S> = mutableListOf<S>()
 
     for (element in this) {
         res += function(element)

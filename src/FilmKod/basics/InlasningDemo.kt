@@ -14,7 +14,7 @@ fun readNumber2() = readLine()?.toInt()
 fun main(){
     try {
         while (true) {
-            println(readNumber2())
+            println(readNumber1())
         }
     }
     catch(e : NumberFormatException){

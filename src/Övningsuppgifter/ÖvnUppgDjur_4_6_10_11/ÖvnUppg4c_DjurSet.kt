@@ -17,9 +17,11 @@ fun main() {
 
     println()
 
-    val list1 = listOf(spindel, katt, katt)
+    val list1 = listOf( spindel, katt, katt)
     val list2 = listOf( spindel, katt, katt)
     val list3 = listOf( spindel, katt, katt2)
+    val list4 = listOf( spindel, katt, katt, katt)
     println(list1.equals(list2))
     println(list1.equals(list3))
+    println(list1.equals(list4))
 }

@@ -16,10 +16,27 @@ fun main (){
 
     fun returnMaxValue(listInts: List<Int>, i: Int = 0):Int {
         return if(i == listInts.size-1) listInts.get(listInts.size-1)
-        else Math.max(listInts.get(i), returnMaxValue(listInts,i+1))
+        else {
+            //println(listInts.get(i))
+            Math.max(listInts.get(i), returnMaxValue(listInts, i + 1))
+        }
     }
 
-    println(returnMaxValue(listOf(1, -5, 3, -4, 10, 3, -6)))
+    fun returnMaxValue2(listInts: List<Int>, i: Int = 0):Int {
+        if(i == listInts.size-1) return listInts.get(listInts.size-1)
+        else {
+            return Math.max(listInts.get(i), returnMaxValue(listInts, i + 1))
+        }
+    }
+
+    //steg 1: max (1, rMV(-5, 3))
+    //steg 2: max (1, max (-5, rMV( 3)))
+    //steg 3: max (1, max (-5, 3))
+    //steg 4: max (1, 3)
+    //steg 5: svar: 3
+
+
+    println(returnMaxValue(listOf(10, 5, 3)))
 
     //println(findMax(listOf(1, -5, 3, -4, 10, 3, -6)))
 }

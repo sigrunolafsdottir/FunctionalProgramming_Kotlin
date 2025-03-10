@@ -4,7 +4,7 @@ import java.util.stream.IntStream
 
 fun <T> List<T>.myFilter(predicate: (T) -> Boolean): List<T> {
 
-    var res : List<T> = listOf<T>()
+    var res : MutableList<T> = mutableListOf<T>()
     for (element in this) {
         if (predicate(element))
             res += element

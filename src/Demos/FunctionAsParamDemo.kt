@@ -1,10 +1,12 @@
 package Demos
 
+//Exempel på Clojures
 fun pipetest() : Int {
     val list = listOf(1, 5, 7, 10)
     var sum = 0
     val divider = 5
     list.filter { it % divider == 0 }.forEach { sum += it }     //blir 15
+    list.filter { it % divider == 0 }.sum()
     return (sum)
 }
 
@@ -13,7 +15,7 @@ fun main() {
     val list = listOf(1, 2, 3, 4)
     val listString = listOf("a", "b", "c")
 
-    val isEven: (Int) -> Boolean = { e: Int -> e % 2 == 0 }
+    val isEven: (Int) -> Boolean = { e : Int -> e % 2 == 0 }    //Int valfri att skriva ut
 
     val even = list.filter(isEven)
     val even2 = list.count(isEven)
@@ -25,5 +27,5 @@ fun main() {
     println(even2)
     println(hasEven)
 
-    println(pipetest())
+    //println(pipetest())
 }

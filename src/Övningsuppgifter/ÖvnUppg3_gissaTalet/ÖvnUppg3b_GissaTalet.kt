@@ -27,7 +27,7 @@ fun main (){
         catch(e : Exception){
             //Om någon annan exception skulle inträffa
             //println(e.printStackTrace())
-            println("Inte ett giltigt tal, skriv in ett nytt nummer")
+            println("Oväntat fel, skriv in ett nytt nummer")
         }
     }
 }

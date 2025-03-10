@@ -46,7 +46,7 @@ fun main(){
         mapA.filterValues { it.size == 1}
 
     for ((key, value) in mapFilter2) {
-        println("$key = ${value.map{it.sort}.distinct()}")
+        println("$key = ${value.map{it.sort}}")
     }
 
     println()

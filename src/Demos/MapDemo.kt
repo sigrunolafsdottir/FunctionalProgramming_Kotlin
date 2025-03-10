@@ -12,38 +12,48 @@ fun main() {
         "Crocubot", "Franz", "Revolio"
     )
 
-    val ages = listOf(21, 15, 25, 25, 42, 21, 42, 21, 33)
+    val ages = listOf(21, 15, 25, 25, 42, 21, 42, 21, 33, 56, 34, 45)
 
     fun people(): List<Person> =
         names.zip(ages) { name, age ->
             Person(name, age)
         }
 
+    fun people2(): List<String> =
+        names.zip(ages) { name, age ->
+            name+age
+        }
+
     println(people())
+    println(people2())
+    println()
 
 //Åldern blir nyckel, Person-objekten värden
     val groupMap: Map<Int, List<Person>> =
         people().groupBy(Person::age)
 
     println(groupMap)
+    println()
 
     //Person-objektet blir nyckel, namnet blir värde
     val AWMap: Map<Person, Int> =
         people().associateWith { it.age }
 
     println(AWMap)
+    println()
 
     //Namnet bir nyckel, PersonObjektet värde
     val ABMap: Map<String, Person> =
         people().associateBy { it.name }
 
     println(ABMap)
+    println()
 
     val ABMap2: Map<Int, Person> =
         people().associateBy { it.age }
 
     println(ABMap2)
-
+println()
     //-------------------------
 
     val map = mapOf(

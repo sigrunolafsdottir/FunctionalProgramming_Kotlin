@@ -1,8 +1,10 @@
 package FilmKod.FunktionellProgrammering
 
+import java.time.LocalTime
+
 //3! = 3*2*1
 
-fun fact(n:Long) : Long{
+tailrec fun fact(n:Long) : Long{
     if (n<= 1) return 1
     return n * fact(n-1)
 }
@@ -20,6 +22,8 @@ fun factAcc(n : Long) : Long{
 
 
 fun main(){
-    println(fact(3))   // 3! = 3*2*1
-    println(factAcc(3))
+    println(LocalTime.now())
+    println(fact(30))   // 3! = 3*2*1
+    println(LocalTime.now())
+    //println(factAcc(3))
 }

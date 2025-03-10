@@ -20,9 +20,9 @@ fun main(){
 
     fun calculator(calculate : (Double, Double) -> Double){
         println("Skriv in ett värde:")
-        val x = readLine()!!.toDouble()
+        val x = readln().toDouble()
         println("Skriv in ytterligare ett värde:")
-        val y = readLine()!!.toDouble()
+        val y = readln().toDouble()
 
         println(calculate(x,y))
     }

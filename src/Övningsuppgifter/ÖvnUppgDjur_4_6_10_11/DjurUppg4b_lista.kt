@@ -10,6 +10,8 @@ fun main(){
     val list2 = listOf(hund, katt, spindel)
     val list3 = listOf(hund, katt, spindel)
 
+    list.forEach { it.printEverything() }
+
     println(list.equals(list2))
     println(list3.equals(list2))
 

@@ -3,27 +3,36 @@ package Demos
 class Alien(var name: String = "Olle")
 
 class SecretAgent(name: String){
-
     val greeting = "hello $name"
 
-    fun defaultParamTest(i : Int = 4, j: Int = 7){
+   fun defaultParamTest(i : Int = 4, j: Int = 7){
         println(i+j)
     }
 
- //   fun funTest(){
- //       println(" bla $name bla")
- //   }
+   // fun funTest(){
+   //     println(" bla $name bla")
+   // }
 }
 
 fun main() {
 
+    val a1 = Alien()
+    val a2 = Alien("Nisse")
+    println(a1.name)
+    println(a2.name)
+    a1.name="Pluttan"
+    println(a1.name)
+    println()
+
+
     var secretAgent = SecretAgent("Sigrun")
     //can not access name
-   // println(secretAgent.name)
-  //  secretAgent.funTest()
+    // println(secretAgent.name)
+ //   secretAgent.funTest()
 
     secretAgent.defaultParamTest()
-    secretAgent.defaultParamTest(j = 9)
+    secretAgent.defaultParamTest(5,5)
+    secretAgent.defaultParamTest(i = 9)
     secretAgent.defaultParamTest(j = 5, i = 1)
     println(secretAgent.greeting)
 

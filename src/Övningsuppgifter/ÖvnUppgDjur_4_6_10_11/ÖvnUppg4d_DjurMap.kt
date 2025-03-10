@@ -11,15 +11,17 @@ fun main() {
 
     val map1 = mapOf("Tusse" to katt, "Fido" to hund, "Robert" to spindel)
 
-    val map2 = mapOf("katt" to listOf(katt, katt2), "hund" to hund, "spindel" to spindel)
+    val map2 = mapOf("katt" to listOf(katt, katt2), "hund" to "hund", "spindel" to spindel)
 
     for ((key, value) in map1)      // [3]
-        println("$key=${value.sort}")
+        println("$key=${value.sort} and ${value.antalBen}")
 
     println()
 
     for ((key, value) in map2)      // [3]
         println("$key=$value.")
+
+    println()
 
     map1.forEach{e -> println("${e.key} - ${e.value}")}
 }

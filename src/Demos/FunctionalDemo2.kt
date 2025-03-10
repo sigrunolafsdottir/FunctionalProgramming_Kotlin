@@ -3,9 +3,9 @@ package Demos
 
 
 fun main() {
-    val result1 = if (11 > 42) 9 else 5
+    val result1 = if (11 > 42) 9 else 5   // ger 5
 
-    val result2 = if (1 < 2) {
+    val result2 = if (1 < 2) {   //ger 53
         val a = 11
         a + 42
     } else 42

@@ -12,7 +12,6 @@ fun main() {
             "hund" -> println("Vov")
             "spindel" -> println("hssssss")
         }
-
     }
 
     makeSound(hund)

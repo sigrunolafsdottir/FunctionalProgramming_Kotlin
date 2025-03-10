@@ -36,8 +36,8 @@ val plantList = listOf(laura, iggy, putte, meatloaf)
 fun main(){
     while(true){
         println("Vilken växt ska få mat?")
-        val input = readLine()
-        val plant = plantList.filter{p -> p.name.equals(input)}.firstOrNull()
+        val input = readln()
+        val plant = plantList.filter{p -> p.name.equals(input, ignoreCase = true)}.firstOrNull()
         if (plant != null){
             println("${plant.name} ska få ${plant.feedMe()}  ${plant.ft.niceName}")
         }

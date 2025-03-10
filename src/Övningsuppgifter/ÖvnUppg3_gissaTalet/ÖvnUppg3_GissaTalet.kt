@@ -6,8 +6,9 @@ fun main (){
     println("Gissa en siffra mellan 1 och 10")
     while(true) {
 
-       // val guessed = readLine()!!.toInt()    //  String?
-        val guessed = readLine()?.toInt() ?: 5
+        val guessed = readLine()!!.toInt()
+        val guessed1 = readLine()?.toInt() ?: 5
+        val guessed2 = readln().toInt()
 
         if (randomNumber == guessed) {
             println("Det var rätt.")

@@ -9,8 +9,10 @@ fun main() {
     println(unitFun())
     val i : Int = 4+5
     println(i)
+    println()
     val u1: Unit = println(42)   //42
     println(u1)
+    println()
     val u2 = println(0) // Type inference
     println(u2)
 
