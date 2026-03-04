@@ -41,14 +41,14 @@ fun main() {
       println(ints.lastIndexOf(5))
       println(ints.lastIndexOf(2))
       println()
-
+/*
       println(ints.joinToString(" aa ", prefix=" bb ", postfix=" cc ") {"[${it+2}]"} )
       println(ints.joinToString(" aa ", transform = {"[${it-2}]"}) )
       println()
 
       println( ints.mapIndexed { index, _ -> "[$index]"})
       println( ints.mapIndexed { index, i -> "$index - $i "})
-
+*/
     //--------------------------------
 
 

@@ -10,10 +10,11 @@ fun main() {
     val i : Int = 4+5
     println(i)
     println()
-    val u1: Unit = println(42)   //42
+    val u1: Unit = println(42)   // skriver ut 42, men värdet efteråt är en Unit
+    println("x")
     println(u1)
     println()
-    val u2 = println(0) // Type inference
+    val u2 = println(0) // Type inference, behöver egentligen inte ange Unit
     println(u2)
 
 }

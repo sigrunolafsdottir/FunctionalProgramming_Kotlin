@@ -18,6 +18,7 @@ fun main(){
 
     val division: (x : Double, y: Double) -> Double = {x, y -> x / y}
 
+    //Högre ordnignens funktion
     fun calculator(calculate : (Double, Double) -> Double){
         println("Skriv in ett värde:")
         val x = readln().toDouble()

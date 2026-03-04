@@ -15,7 +15,8 @@ fun main() {
     val list = listOf(1, 2, 3, 4)
     val listString = listOf("a", "b", "c")
 
-    val isEven: (Int) -> Boolean = { e : Int -> e % 2 == 0 }    //Int valfri att skriva ut
+    //val isEven: (Int) -> Boolean = { e : Int -> e % 2 == 0 }    //Int valfri att skriva ut
+    val isEven: (Int) -> Boolean = { it % 2 == 0 }
 
     val even = list.filter(isEven)
     val even2 = list.count(isEven)
