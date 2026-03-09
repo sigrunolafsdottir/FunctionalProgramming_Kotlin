@@ -1,4 +1,4 @@
-package Demos
+package Demos.Livekodning
 
 
 fun testfun(){

@@ -30,7 +30,7 @@ fun main() {
       //elementen i en lista kan pekas ut som i en java-array med []
       for (e in 0..mutableInts.size-1) {
           print(mutableInts[e])
-          print(mutableInts.get(e))
+          //print(mutableInts.get(e))
       }
     println(" ")
 

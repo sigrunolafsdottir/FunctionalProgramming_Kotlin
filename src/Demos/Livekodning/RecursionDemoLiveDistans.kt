@@ -1,4 +1,4 @@
-package Demos
+package Demos.Livekodning
 
 
 fun faculty(i : Long) : Long{
