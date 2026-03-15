@@ -11,6 +11,7 @@ fun main(){
     val list3 = listOf(hund, katt, spindel)
 
     list.forEach { it.printEverything() }
+    list.forEach { e -> e.printEverything() }
 
     println(list.equals(list2))
     println(list3.equals(list2))

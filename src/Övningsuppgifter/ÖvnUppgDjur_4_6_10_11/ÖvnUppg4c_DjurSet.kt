@@ -21,7 +21,9 @@ fun main() {
     val list2 = listOf( spindel, katt, katt)
     val list3 = listOf( spindel, katt, katt2)
     val list4 = listOf( spindel, katt, katt, katt)
+    val list5 = listOf( katt, spindel, katt)   //ordnignen spelar roll
     println(list1.equals(list2))
     println(list1.equals(list3))
     println(list1.equals(list4))
+    println(list1.equals(list5))
 }

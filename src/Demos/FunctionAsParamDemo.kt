@@ -28,5 +28,6 @@ fun main() {
     println(even2)
     println(hasEven)
 
-    //println(pipetest())
+    println(pipetest())
+
 }

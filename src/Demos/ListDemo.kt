@@ -4,8 +4,10 @@ package Demos
 fun main() {
 
 
-    var ints = listOf(1, 2, 3)
+    var ints = listOf(5, 9, 3)
     println( ints )
+
+    println(ints.javaClass)
 
     //VI kan inte adda till en lista som inte är mutable
    // ints.add(6)
@@ -33,7 +35,7 @@ fun main() {
           //print(mutableInts.get(e))
       }
     println(" ")
-
+/*
       //massa olika metoder för listor
       println(ints.takeLast(2))
       println(ints.first())
@@ -41,14 +43,16 @@ fun main() {
       println(ints.lastIndexOf(5))
       println(ints.lastIndexOf(2))
       println()
-/*
+*/
+    println(ints.joinToString(" aa ", prefix=" bb ", postfix=" cc ", transform= {"[${it+2}]"} ))
       println(ints.joinToString(" aa ", prefix=" bb ", postfix=" cc ") {"[${it+2}]"} )
       println(ints.joinToString(" aa ", transform = {"[${it-2}]"}) )
       println()
 
-      println( ints.mapIndexed { index, _ -> "[$index]"})
-      println( ints.mapIndexed { index, i -> "$index - $i "})
-*/
+
+          println( ints.mapIndexed { index, _ -> "[$index]"})
+          println( ints.mapIndexed { index, i -> "$index - $i "})
+
     //--------------------------------
 
 
